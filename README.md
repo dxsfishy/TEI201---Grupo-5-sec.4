@@ -52,7 +52,7 @@ Sensor de humedad M-SENS-V1.2 -> Procesamiento ESP32 -> Actuador -> Sincronizaci
 4. Conectar la ESP32 mediante USB
 5. Compilar y ejecutar programa
 
-## Estructura del repositorio
+## Estructura del repositorio (ideal)
 - diseno-3d/ — Modelos de Fusion 360, renders y planos técnicos.
 - docs/ — Informes y documentación del proyecto.
 - hardware/ — Esquemático, BOM y selección de componentes.
