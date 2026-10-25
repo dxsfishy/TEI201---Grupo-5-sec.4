@@ -28,8 +28,10 @@ está apto para el cultivo o no.
 - Estado: Prototipo básico (Incluye el sensor de humedad)
 
 ---
+## Arquitectura del prototipo 
+Sensor de humedad M-SENS-V1.2 -> Procesamiento ESP32 -> Actuador -> Sincronización NTP -> Conectividad Wifi -> Mensaje al Telegram del usuario
 
-##  Arquitectura del prototipo
+## Tecnologías utilizadas
 1. ESP32
 2. Sensor de humedad  de sueo capacitivo voltio 1.2
 3. Sensor de temperatura de suelo
