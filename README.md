@@ -42,7 +42,6 @@ está apto para el cultivo o no.
 ### Requisitos Previos
 - Arduino IDE 2.x
 - Fusion 360
-- [Otras herramientas necesarias]
 
 ### Instalación
 1. Clonar el repositorio
