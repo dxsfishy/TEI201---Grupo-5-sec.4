@@ -53,13 +53,13 @@ Sensor de humedad M-SENS-V1.2 -> Procesamiento ESP32 -> Actuador -> Sincronizaci
 5. Compilar y ejecutar programa
 
 ## Estructura del repositorio
-*diseno-3d/ — Modelos de Fusion 360, renders y planos técnicos.
-docs/ — Informes y documentación del proyecto.
-hardware/ — Esquemático, BOM y selección de componentes.
-iteraciones/ — Evidencia del desarrollo e iteraciones del diseño.
-software/ — Código fuente del ESP32, servidor web y dashboard.
-testing/ — Protocolos de prueba y evidencias experimentales.
-FUENTES.md — Bibliografía, datasheets y referencias utilizadas.
+- diseno-3d/ — Modelos de Fusion 360, renders y planos técnicos.
+- docs/ — Informes y documentación del proyecto.
+- hardware/ — Esquemático, BOM y selección de componentes.
+- iteraciones/ — Evidencia del desarrollo e iteraciones del diseño.
+- software/ — Código fuente del ESP32, servidor web y dashboard.
+- testing/ — Protocolos de prueba y evidencias experimentales.
+- FUENTES.md — Bibliografía, datasheets y referencias utilizadas.
 
 ---
 
