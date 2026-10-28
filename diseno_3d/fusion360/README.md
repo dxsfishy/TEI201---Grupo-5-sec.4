@@ -1,7 +1,3 @@
-# Archivos Fusion 360
-
-## Archivos Requeridos
-
 # Archivos Nativos - Fusion 360
 
 Esta carpeta contiene el archivo fuente paramétrico del encapsulado 3D (`modelo_completo_v3.f3d`).
