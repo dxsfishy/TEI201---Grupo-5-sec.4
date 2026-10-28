@@ -4,17 +4,13 @@
 
 **Archivo nativo:** `modelo_completo_v3.f3d` (ubicado en `fusion360/`)
 
-El modelo 3D incluye **TODOS** los componentes del prototipo, cumpliendo con la rúbrica mediante el siguiente árbol de jerarquía:
+El modelo 3D incluye los siguientes componentes del prototipo, cumpliendo con la rúbrica mediante el siguiente árbol de jerarquía:
 
   *  Ensamble_Principal
   *  Encapsulado_Inferior
   *  Encapsulado_Superior
   *  ESP32_DevKit (con orientación de pines hacia arriba)
   *  Sensor_DHT22 (en posición de instalación)
-  *  Moisture Sensor
-  *  LED_Indicador
-  *  Batería / fuente de alimentación (espacio volumétrico)
-  *  Tornilleria (fijaciones y sistema de montaje)
 
 ---
 
