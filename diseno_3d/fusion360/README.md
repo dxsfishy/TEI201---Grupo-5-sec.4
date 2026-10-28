@@ -2,16 +2,9 @@
 
 ## Archivos Requeridos
 
-### `modelo_completo_v3.f3d`
-Archivo principal con **historial de cambios completo**
+# Archivos Nativos - Fusion 360
 
-**DEBE INCLUIR:**
--  Todos los componentes modelados
--  Ensamble completo funcional
--  Historial de diseño (timeline)
--  Materiales asignados
--  Constraints y relaciones
-
+Esta carpeta contiene el archivo fuente paramétrico del encapsulado 3D (`modelo_completo_v3.f3d`).
 ---
 
 ## Estructura del Modelo
