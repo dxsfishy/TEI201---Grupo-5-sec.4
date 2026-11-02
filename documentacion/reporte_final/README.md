@@ -41,7 +41,7 @@
 - Objetivos del proyecto
 - Alcance
 
-### 2. Marco Teórico/Estado del Arte (1-1.5 páginas)
+### 2. Marco Teórico/Estado del Arte (1-1.5 páginas) ✅
 - ODS seleccionado - descripción
 - Problemática local/nacional
 - Soluciones existentes (breve revisión)
