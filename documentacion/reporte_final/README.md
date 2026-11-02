@@ -35,7 +35,7 @@
 - Resultados principales
 - Conclusión clave
 
-### 1. Introducción (1 página)
+### 1. Introducción (1 página) ✅
 - Contexto general
 - Problemática ODS específica
 - Objetivos del proyecto
