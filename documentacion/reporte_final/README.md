@@ -21,7 +21,7 @@
 
 ## Estructura Sugerida
 
-### Portada (1 página)
+### Portada (1 página)  ✅
 - Título del proyecto
 - Logo Universidad/Curso
 - Integrantes del equipo
