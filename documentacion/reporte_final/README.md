@@ -111,7 +111,7 @@
 - Recursos web
 
 ### Anexos (opcional, no cuenta para 15 páginas)
-- Código completo
+- Código completo  ✅
 - Datos raw de testing
 - Documentación extendida
 
