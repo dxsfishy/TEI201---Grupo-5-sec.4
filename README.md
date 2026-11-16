@@ -33,9 +33,8 @@ Sensor de humedad M-SENS-V1.2 -> Procesamiento ESP32 -> Actuador -> Sincronizaci
 
 ## Tecnologías utilizadas
 1. ESP32
-2. Sensor de humedad  de sueo capacitivo voltio 1.2
-3. Sensor de temperatura de suelo
-4. Sensor de pH
+2. Sensor de humedad  de suelo capacitivo voltio 1.2
+3. Sensor de luz ambiental
 
 ---
 
