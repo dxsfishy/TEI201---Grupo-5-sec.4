@@ -6,7 +6,7 @@ El prototipo del Sistema Inteligente de Monitoreo de Suelo utiliza una placa de 
 
 El sensor permite obtener lecturas relacionadas con la humedad del sustrato. El microcontrolador recibe dichas lecturas para su posterior procesamiento.
 
-### Componentes identificados
+### Componentes 
 
 | Componente | Cantidad | Función |
 |---|---:|---|
