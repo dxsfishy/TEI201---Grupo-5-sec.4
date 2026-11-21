@@ -1,8 +1,5 @@
 Hardware — Sistema Inteligente de Monitoreo de Suelo
 
-Universidad Adolfo Ibáñez — TEI201
-
-Grupo 5 — Sección 4
 
 1. Descripción general
 
@@ -18,7 +15,21 @@ El diseño busca permitir el monitoreo del sustrato y reducir decisiones de rieg
 
 ### Estado del prototipo
 
-El montaje documentado corresponde a una configuración experimental con conexiones desmontables. Se requiere verificar el pinout, la alimentación, la seguridad de las conexiones y el sistema de fijación antes de documentar el ensamble definitivo.
+El hardware cuenta con una configuración experimental documentada mediante fotografías y antecedentes del prototipo Alpha.
+
+Antes de considerar finalizada esta sección, se debe verificar:
+
+- Modelo y características de todos los componentes.
+
+- Esquemático eléctrico del montaje actual.
+
+- Tabla BOM y costos.
+
+- Fotografías del ensamble definitivo.
+
+- Seguridad de las conexiones.
+
+- Accesibilidad y reparabilidad del encapsulado.
 ## Contenido
 Esta carpeta contiene toda la documentación técnica del hardware del proyecto.
 
