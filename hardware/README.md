@@ -1,5 +1,23 @@
-# Hardware - Documentación
+## Hardware del sistema
 
+### Descripción general
+
+El prototipo del Sistema Inteligente de Monitoreo de Suelo utiliza una placa de desarrollo ESP32-S3 conectada a un sensor capacitivo de humedad de suelo versión 1.2.
+
+El sensor permite obtener lecturas relacionadas con la humedad del sustrato. El microcontrolador recibe dichas lecturas para su posterior procesamiento.
+
+### Componentes identificados
+
+| Componente | Cantidad | Función |
+|---|---:|---|
+| Placa de desarrollo ESP32-S3 | 1 | Procesamiento de datos y conectividad |
+| Sensor capacitivo de humedad de suelo v1.2 | 1 | Medición de humedad del sustrato |
+| Cables de conexión Dupont | Por contabilizar | Interconexión eléctrica entre componentes |
+| Módulo electrónico adicional | 1 | Función pendiente de identificar |
+
+### Estado del prototipo
+
+El montaje documentado corresponde a una configuración experimental con conexiones desmontables. Se requiere verificar el pinout, la alimentación, la seguridad de las conexiones y el sistema de fijación antes de documentar el ensamble definitivo.
 ## Contenido
 Esta carpeta contiene toda la documentación técnica del hardware del proyecto.
 
