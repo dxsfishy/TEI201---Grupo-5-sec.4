@@ -1,19 +1,20 @@
-## Hardware del sistema
+Hardware — Sistema Inteligente de Monitoreo de Suelo
 
-### Descripción general
+Universidad Adolfo Ibáñez — TEI201
 
-El prototipo del Sistema Inteligente de Monitoreo de Suelo utiliza una placa de desarrollo ESP32-S3 conectada a un sensor capacitivo de humedad de suelo versión 1.2.
+Grupo 5 — Sección 4
 
-El sensor permite obtener lecturas relacionadas con la humedad del sustrato. El microcontrolador recibe dichas lecturas para su posterior procesamiento.
+1. Descripción general
 
-### Componentes 
+El hardware de nuestro proyecto consiste en un sistema electrónico de monitoreo de humedad del suelo, desarrollado para apoyar la toma de decisiones de riego en cultivos domésticos.
 
-| Componente | Cantidad | Función |
-|---|---:|---|
-| Placa de desarrollo ESP32-S3 | 1 | Procesamiento de datos y conectividad |
-| Sensor capacitivo de humedad de suelo v1.2 | 1 | Medición de humedad del sustrato |
-| Cables de conexión Dupont | Por contabilizar | Interconexión eléctrica entre componentes |
-| Módulo electrónico adicional | 1 | Función pendiente de identificar |
+El prototipo utiliza una placa de desarrollo ESP32-S3, conectada a un sensor capacitivo de humedad de suelo versión 1.2.
+
+El sensor obtiene lecturas relacionadas con las condiciones de humedad de la tierra. Estas son recibidas por el microcontrolador para su procesamiento y posterior utilización por el sistema IoT.
+
+El diseño busca permitir el monitoreo del sustrato y reducir decisiones de riego basadas únicamente en la observación del usuario.
+
+###FALTA AGREGAR LA TABLA DE COMPONENTES
 
 ### Estado del prototipo
 
