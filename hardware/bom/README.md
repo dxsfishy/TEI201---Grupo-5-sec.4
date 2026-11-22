@@ -33,3 +33,8 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 - Cables: $1.807
 - Encapsulado de impresión 3D: Realizado de forma independiente por uno de los integrantes
 Total: $24.212
+
+##Observaciones
+* Todos los componentes electrónicos utilizados en el proyecto fueron proporcionados por los laboratorios de la Universidad Adolfo Ibáñez.
+* Los precios indicados corresponden a valores referenciales de mercado para estimar el costo del prototipo.
+* Los datasheets de los componentes principales deben almacenarse en la carpeta datasheets/ para facilitar futuras consultas técnicas.
