@@ -99,31 +99,38 @@ const long intervaloLectura = 10000;
 ----
 ## Arquitectura del Software
 
-Sensor de humedad (GPIO 4) ──┐
-                             ├──> ESP32 ──> Promedio de 10 muestras
-Sensor de luz (GPIO 5) ─────┘                       │
-                                                  v
-                                    Conversión y clasificación
-                                                  │
-                                                  v
-                                 Detección de cambio de estado
-                                                  │
-                                                  v
-                                      Wi-Fi + Bot de Telegram
-                                                  │
-                                                  v
-                                      Notificación al usuario
+### Diagrama de arquitectura del sistema
+
+```mermaid
+flowchart LR
+    A[Sensor de humedad<br/>GPIO 4]
+    B[Sensor de luz<br/>GPIO 5]
+    C[ESP32]
+    D[Promedio de 10 muestras]
+    E[Conversión y clasificación]
+    F[Detección de cambio de estado]
+    G[Wi‑Fi + Bot de Telegram]
+    H[Notificación al usuario]
+
+    A --> C
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+```
 
 ### Módulos Principales
-1. **Inicialización** - Setup del sistema
-2. **Lectura de Sensores** - Captura de datos
-3. **Procesamiento** - Análisis y decisiones
-4. **Actuación** - Control de actuadores
-5. **Comunicación** - Envío de datos
+1. Inicialización: configura el Monitor Serial, la conexión Wi-Fi y el cliente de Telegram; establece los pines y variables de control.
+2. Lectura de Sensores: la función `promediarLectura(pin)` obtiene el promedio de 10 muestras de cada entrada analógica.
+3. Procesamiento: `calcularPorcentajeHumedad(raw)` convierte la lectura de humedad a una escala de 0–100 %. obtener `CategoriaHumedad(...)` y `obtenerNivelLuz(...)` clasifican las condiciones.
+4. Actuación: el prototipo documentado no controla bombas, válvulas ni otros actuadores físicos. Su respuesta consiste en avisos digitales al usuario, quien decide si debe regar.
+5. Comunicación: mediante Wi-Fi y `UniversalTelegramBot`, `bot.sendMessage(...)` transmite una alerta cuando cambia el estado de humedad.
 
 ---
 
-## API / Endpoints (si aplica)
+## API 
 Se utilizó la API de bots de Telegram por medio de la librería `UniversalTelegramBot`
 
 | Servicio / interfaz | Operación | Descripción |
