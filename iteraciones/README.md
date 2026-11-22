@@ -42,14 +42,17 @@ Cada carpeta debe incluir:
 
 ## Evolución del Diseño
 
-### Versión 1 (Iteración 1) - Concepto Inicial
-**Fecha:** [XX/XX/2025]  
-**Estado:** Prototipo alpha - Prueba de concepto
+### Iteración 01 — Conceptualización de la solución
+**Fecha:** 24 de agosto del 2026
+**Problema de partida**
+Los usuarios de agricultura urbana toman decisiones de riego con información limitada sobre las condiciones de su sustrato. El proyecto se orientó a entregar datos locales que apoyaran esas decisiones y permitieran disminuir el desperdicio de recursos.
+**Solución planteada**
+Las primeras propuestas contemplaron un sistema IoT con microcontrolador ESP32 y sensores relacionados con las condiciones del suelo. En esa etapa se consideraron variables como humedad, temperatura y pH, además de alternativas de alimentación autónoma.
+**Decisión para avanzar**
+Priorizar un prototipo realizable de monitoreo de humedad del suelo, con posibilidad de integrar otras variables ambientales posteriormente.
 
-**Características:**
-- [Descripción breve]
-- Problemas principales identificados
-- Aprendizajes clave
+Evidencia: Informe de problemática y conceptualización y Entregable 2, Grupo 5.
+Observación: las funciones propuestas en esta etapa no equivalen a componentes implementados.
 
 ### Versión 2 (Iteración 2) - Primera Mejora
 **Fecha:** [XX/XX/2025]  
