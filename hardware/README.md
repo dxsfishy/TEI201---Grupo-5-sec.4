@@ -23,7 +23,7 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 ## Materiales y herramientas
 - Placa ESP32-S3.
 - Sensor capacitivo de humedad de suelo v1.2.
-- Sensor de luz utilizado por el equipo.
+- Sensor de luz Ky018 utilizado por el equipo.
 - Cables y conectores compatibles.
 - Cable USB y fuente de alimentación compatibles con la placa.
 - Computador con el firmware del proyecto.
