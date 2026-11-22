@@ -60,7 +60,25 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 
 ## Manual de Instalación
 
-[Paso a paso detallado para instalar y configurar el software]
+1. Preparar el software: instalar Arduino IDE 2.x en el computador.
+
+2. Añadir soporte ESP32: en el Gestor de placas del IDE, instalar el paquete esp32 de Espressif Systems.
+
+3. Confirmar la placa: seleccionar el modelo exacto de ESP32 y el puerto USB. El informe menciona un ESP32 DevKit V1, mientras que las fotografías del proyecto muestran una placa identificada como ESP32-S3; no son intercambiables en la asignación de pines analógicos.
+
+4. Verificar conexiones: comprobar alimentación, tierra común y correspondencia de los GPIO declarados con el modelo de placa. Mantener los conectores y la placa alejados del agua durante las pruebas.
+
+5. Instalar dependencias: consultar [`../librerias/README.md`](../librerias/README.md). Se requiere la librería para Telegram y sus dependencias compatibles; WiFi.h y WiFiClientSecure.h se incluyen con el paquete ESP32.
+
+6.Incorporar el firmware real: agregar a software/src/ el archivo .ino definitivo del equipo y abrirlo en Arduino IDE. El archivo no estaba presente en el ZIP revisado.
+
+7.Configurar conexión y destinatario: completar en el entorno local los parámetros de Wi-Fi, token del bot y CHAT_ID. El código del informe utiliza una red WPA2 Enterprise; una red doméstica WPA2-Personal requiere adaptar la configuración según el tipo de autenticación.
+
+8.Proteger credenciales: no publicar contraseñas, tokens ni identificadores privados en GitHub. Si se usa un archivo local de secretos, excluirlo del control de versiones.
+
+9.Compilar y cargar: seleccionar placa y puerto correctos, compilar el programa y subirlo al dispositivo. Verificar compatibilidad de esp_wpa2.h con la versión del paquete ESP32 realmente instalada.
+
+10.Comprobar funcionamiento: abrir el Monitor Serial a 115200 baudios, observar las lecturas y verificar que un cambio de estado de humedad genere la alerta esperada en Telegram.
 
 ---
 
