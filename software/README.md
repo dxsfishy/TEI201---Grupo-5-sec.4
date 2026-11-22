@@ -23,12 +23,12 @@ Lenguaje: C/C++
 IDE: Arduino IDE 2.x  
 -----
 **Librerías Principales**
-| Librería | Función | Versión |
-|---|---|---|
-| `WiFi.h` | Conexión del ESP32 a una red Wi-Fi | Incluida en Arduino-ESP32; versión por confirmar |
-| `WiFiClientSecure.h` | Cliente para comunicación HTTPS | Incluida en Arduino-ESP32; versión por confirmar |
-| `UniversalTelegramBot.h` | Envío de mensajes mediante un bot de Telegram | Por confirmar |
-| `esp_wpa2.h` | Autenticación WPA2 Enterprise, según el código del informe | Compatibilidad y versión por verificar |
+| Librería | Función |  
+|---|---|
+| `WiFi.h` | Conexión del ESP32 a una red Wi-Fi Incluida en Arduino-ESP32 |
+| `WiFiClientSecure.h` | Cliente para comunicación HTTPS, incluida en Arduino-ESP32 | 
+| `UniversalTelegramBot.h` | Envío de mensajes mediante un bot de Telegram | 
+| `esp_wpa2.h` | Autenticación WPA2 Enterprise, según el código del informe | 
 
 ---
 
