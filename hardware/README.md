@@ -74,7 +74,7 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 | [Problema 2] | [Causa] | [Solución] |
 
 ## Archivos incluidos
-hardware/
+`hardware/
 ├── README.md
 ├── bom/                        # BOM existente del equipo; conservar su contenido
 ├── diagramas/                  # Agregar esquemático verificado
@@ -84,3 +84,4 @@ hardware/
     ├── vista_lateral.jpg       # Pendiente
     ├── conexiones.jpg         # Pendiente
     └── reparabilidad.jpg      # Pendiente
+`
