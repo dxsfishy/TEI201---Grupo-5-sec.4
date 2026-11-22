@@ -75,22 +75,40 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 
 ## Archivos incluidos
 `hardware/
+
 │
+
 ├── esquemas/
+
 │   ├── esquema_electrico.pdf
+
 │   ├── conexiones.png
+
 │   └── README.md
+
 │
+
 ├── bom/
+
 │   ├── BOM.xlsx
+
 │   ├── BOM.pdf
+
 │   └── README.md
+
 │
+
 ├── fotos/
+
 │   ├── prototipo_frontal.jpg
+
 │   ├── prototipo_lateral.jpg
+
 │   ├── interior.jpg
+
 │   └── README.md
+
 │
+
+
 └── README.md
-`
