@@ -57,12 +57,22 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 | Desconexión accidental | Ordenar cables y evitar tensión mecánica sobre conectores. |
 ---
 
-## Especificaciones Técnicas
 
-**Alimentación:** [Voltaje y corriente]  
-**Consumo:** [Watts/mA]  
-**Dimensiones:** [mm x mm x mm]  
-**Peso:** [gramos]
+### Consumo Energético y Autonomía
+
+| Parámetro | Modo de bajo consumo | Modo continuo |
+|---|---|---|
+| Frecuencia de medición | Cada 15 minutos | Funcionamiento constante |
+| Consumo promedio estimado | 7–12 mA | 120–180 mA |
+| Autonomía estimada | 6–10 días | 9–15 horas |
+| Estrategia energética | Uso de Deep Sleep entre mediciones | ESP32 activo continuamente |
+| Aplicación | Monitoreo prolongado | Pruebas y monitoreo en tiempo real |
+
+**Consideraciones técnicas:**
+
+- El modo de bajo consumo requiere implementar Deep Sleep para reducir el consumo entre mediciones.
+- El modo continuo permite mantener el sistema activo, pero reduce considerablemente la autonomía.
+- Los valores de consumo y duración son estimaciones preliminares, sujetas a la capacidad de la batería, la conectividad Wi-Fi y las condiciones de operación.
 
 ---
 
