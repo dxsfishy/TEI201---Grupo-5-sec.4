@@ -72,3 +72,15 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 |----------|---------------|----------|
 | [Problema 1] | [Causa] | [Solución] |
 | [Problema 2] | [Causa] | [Solución] |
+
+## Archivos incluidos
+hardware/
+├── README.md
+├── bom/                        # BOM existente del equipo; conservar su contenido
+├── diagramas/                  # Agregar esquemático verificado
+│   └── esquematico_final.png   # Pendiente
+└── evidencias/
+    ├── montaje_actual.png      # Fotografía incluida con este borrador
+    ├── vista_lateral.jpg       # Pendiente
+    ├── conexiones.jpg         # Pendiente
+    └── reparabilidad.jpg      # Pendiente
