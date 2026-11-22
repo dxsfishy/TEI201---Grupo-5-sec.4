@@ -49,9 +49,14 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 9. Organización del montaje. Evitar cables tirantes o sueltos y mantener la electrónica sobre una superficie seca y aislante.
 
 ### Precauciones
-- ⚠️ [Precaución 1]
-- ⚠️ [Precaución 2]
-
+| Riesgo | Precaución |
+|---|---|
+| Cortocircuitos | Realizar modificaciones solo con la placa desconectada. Revisar aislamiento y terminales. |
+| Alimentación incorrecta | Comprobar las tensiones admitidas; **no aplicar 5 V a los GPIO ni al pin de 3,3 V del ESP32-S3**. |
+| Contacto con humedad | Mantener secas la placa y las conexiones; insertar en la tierra únicamente la zona apta de la sonda. |
+| Desconexión accidental | Ordenar cables y evitar tensión mecánica sobre conectores. |
+| Identificación errónea de pines | Guiarse por etiquetas, fichas técnicas y comprobaciones, no por colores. |
+| Comportamiento anormal | Desconectar ante calentamiento, olor extraño o reinicios inesperados y revisar el circuito. |
 ---
 
 ## Especificaciones Técnicas
