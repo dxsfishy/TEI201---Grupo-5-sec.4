@@ -47,8 +47,10 @@ Cada carpeta debe incluir:
 -------
 **Problema de partida**
 * Los usuarios de agricultura urbana toman decisiones de riego con información limitada sobre las condiciones de su sustrato. El proyecto se orientó a entregar datos locales que apoyaran esas decisiones y permitieran disminuir el desperdicio de recursos.
+---
 **Solución planteada**
 * Las primeras propuestas contemplaron un sistema IoT con microcontrolador ESP32 y sensores relacionados con las condiciones del suelo. En esa etapa se consideraron variables como humedad, temperatura y pH, además de alternativas de alimentación autónoma.
+---
 **Decisión para avanzar**
 * Priorizar un prototipo realizable de monitoreo de humedad del suelo, con posibilidad de integrar otras variables ambientales posteriormente.
 
