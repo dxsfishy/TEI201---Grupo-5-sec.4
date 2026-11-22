@@ -31,7 +31,7 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 - Alimentación: $7.990
 - Cables: $1.807
 - Encapsulado de impresión 3D: Realizado de forma independiente por uno de los integrantes
-Total: $24.212
+*Total: $24.212
 
 ##Observaciones
 * La gran mayoría de los componentes electrónicos utilizados en el proyecto fueron facilitados por el Design Engineering Center (DEC) de la Universidad Adolfo Ibáñez.
