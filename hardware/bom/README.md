@@ -4,13 +4,13 @@
 
 Esta sección contempla los componentes utilizados en el desarrollo del prototipo con sus respectivos valores comerciales y 
 
-| Componente  | Cant. | Función |Precio unitario (CLP) | Subtotal (CLP) | Proveedor |
+| Componente  | Cant. | Especificación |Precio unitario (CLP) | Subtotal (CLP) | Proveedor |
 |---|:--:|--:|--:|--:|---|
-| ESP32-S3 DevKit  | 1 |Lectura, procesamiento y comunicación Wi-Fi | $7.490 | $7.490 | Universidad Adolfo Ibáñez |
+| ESP32-S3 DevKit  | 1 |Lectura, procesamiento y comunicación Wi-Fi, alimentación 3.3 V | $7.490 | $7.490 | Universidad Adolfo Ibáñez |
 | Sensor capacitivo de humedad de suelo v1.2 | 1 | Obtener una señal relacionada con la humedad del suelo | $2.776 | $2.776 | Universidad Adolfo Ibáñez |
 | Cables Dupont Macho-Hembra |6 | Interconexión eléctrica | $50 | $300 | Universidad Adolfo Ibáñez |
-| Sensor de luz Ky018 | 1 |Captación de la luz ambiental | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
-| Cable USB | 1 |Programación y alimentación | $1.507 | $1.507 | Universidad Adolfo Ibáñez |
+| Sensor de luz Ky018 | 1 |Captación de la luz ambiental, voltaje de funcionamiento: 3.3 V a 5 V | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
+| Cable USB | 1 |Programación y alimentación, USB-A a USB-C | $1.507 | $1.507 | Universidad Adolfo Ibáñez |
 | Batería Portátil 2000 mah|1|Alimentación | $7.990 | $7.990 | Falabella
 
 ---
