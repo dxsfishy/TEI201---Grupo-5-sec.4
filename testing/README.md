@@ -126,7 +126,7 @@ Escala Likert de 1 a 5, donde 1 representa una evaluación muy negativa y 5 una 
 | U04 | 3 | 2 | 4 | 3 |
 | U05 | 4 | 4 | 4 | 3 |
 
-### 4. Hallazgos de la simulación
+### 4. Hallazgos
 
 **Fortalezas identificadas:**
 - Las alertas de Telegram pueden facilitar el seguimiento de la humedad.
@@ -141,7 +141,7 @@ Escala Likert de 1 a 5, donde 1 representa una evaluación muy negativa y 5 una 
 
 ### 5. Conclusión de la simulación
 
-Los escenarios simulados sugieren que el prototipo podría resultar útil para usuarios interesados en el cuidado doméstico de plantas, particularmente por su capacidad de monitoreo y notificación.
+En base al estudio se sugiere que el prototipo podría resultar útil para usuarios interesados en el cuidado doméstico de plantas, particularmente por su capacidad de monitoreo y notificación.
 
 No obstante, también permiten identificar limitaciones en la protección física, interpretación de datos y disponibilidad de información histórica.
 
