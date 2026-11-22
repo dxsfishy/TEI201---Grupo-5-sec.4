@@ -58,7 +58,8 @@ Evidencia: Informe de problemática y conceptualización y Entregable 2, Grupo 5
 Observación: las funciones propuestas en esta etapa no equivalen a componentes implementados.
 
 ### Iteración 02 — Prototipo Alpha funcional
-##Implementación descrita
+**Fecha:** 28 de Octubre del 2026
+** Implementación descrita**
 ---
 La presentación Avance 2 — Sistema Inteligente de Monitoreo de Suelo documenta:
 - Sensor capacitivo de humedad de suelo v1.2.
@@ -66,23 +67,18 @@ La presentación Avance 2 — Sistema Inteligente de Monitoreo de Suelo document
 - Filtrado de lecturas analógicas usando un promedio de 10 muestras.
 - Conversión de lecturas a una escala porcentual y clasificación de estado hídrico.
 - Conexión Wi-Fi y alertas mediante un bot de Telegram.
-## Resultado y limitaciones
+**Resultado y limitaciones**
 La presentación incluye una demostración de lectura del sensor y alertas. No proporciona, por sí sola, una base de datos o registros completos para verificar estabilidad a largo plazo.
 
 Evidencia: presentación Avance 2, secciones «Componentes», «Documentación técnica» y «Demostración en vivo».
 
 ### Versión 3 (Iteración 3) - Versión Final
-**Fecha:** [XX/XX/2025]  
-**Estado:** Prototipo de alta resolución
+**Fecha:** 22 de noviembre del 2026 
 
-**Mejoras finales:**
-- [Mejora 1]
-- [Mejora 2]
-
-**Resultado:**
-- Sistema robusto y probado
-- Listo para piloto en terreno
-
+| Problema observado | Cambio descrito por el equipo | Propósito | Qué falta verificar |
+|:--|:--|:--|:--|
+| Lecturas analógicas con ruido y valores erráticos | Promedio de 10 lecturas y control de valores fuera del rango esperado | Evitar que una lectura aislada cambie el diagnóstico | Comparación de series de valores crudos y filtrados |
+| Riesgo de cortocircuito durante pruebas de riego | Reubicación/protección experimental de la electrónica para exponerla menos a la humedad | Disminuir riesgo durante el ensayo | Fotografías y procedimiento de seguridad del montaje actual |
 ---
 
 ## Justificación de Cambios
