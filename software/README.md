@@ -18,9 +18,9 @@ Documentación técnica del software
 
 ## Stack Tecnológico
 
-**Plataforma:** Arduino / ESP32  
-**Lenguaje:** C/C++  
-**IDE:** Arduino IDE 2.x  
+*Plataforma:* Arduino / ESP32  
+*Lenguaje:* C/C++  
+*IDE:* Arduino IDE 2.x  
 -----
 **Librerías Principales**
 | Librería | Función | Versión |
@@ -44,13 +44,12 @@ Documentación técnica del software
    4.Seleccionar en Herramientas > Placa el modelo que corresponda al dispositivo físico y elegir su puerto.
    5.Verificar la correspondencia de conexiones y pines con el montaje real.
 
-Nota: la documentación del proyecto menciona un ESP32 DevKit V1, mientras que una fotografía anterior muestra una placa identificada como ESP32-S3. Antes de compilar hay que confirmar el modelo utilizado.
-
 ### 3. Instalar Librerías
-```bash
-# Copiar librerías personalizadas
-cp -r librerias/* ~/Arduino/libraries/
-```
+1. En **Programa > Incluir librería > Administrar bibliotecas**, buscar e instalar `UniversalTelegramBot`.
+2. Verificar las dependencias que solicite esa versión de la librería, incluida ArduinoJson si corresponde.
+3. `WiFi.h` y `WiFiClientSecure.h` se obtienen del paquete de placas ESP32.
+4. Si el firmware utiliza la red WPA2 Enterprise, comprobar que las llamadas de autenticación sean compatibles con la versión instalada de Arduino-ESP32.
+5. Registrar las versiones finalmente utilizadas en [`librerias/README.md`](librerias/README.md) y en [`../FUENTES.md`](../FUENTES.md).
 
 ### 4. Cargar Código
 1. Abrir `src/main.ino`
