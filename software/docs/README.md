@@ -1,11 +1,7 @@
 # Documentación de Software
 
 ## Contenido
-
-### Diagramas de Flujo
-Incluir diagramas de las funciones principales del sistema.
-
-**Formato:** PNG, PDF o draw.io
+Esta carpeta reúne los diagramas, la descripción de funciones y los procedimientos de instalación, operación y diagnóstico del sistema IoT de monitoreo de suelo del Grupo 5 (TEI201).
 
 ### Documentación de Funciones
 
