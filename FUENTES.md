@@ -6,6 +6,9 @@
 | `esp_wpa2.h` / soporte WPA2 Enterprise | **Por confirmar** | Autenticación en red empresarial, según la versión del framework | [Espressif: Arduino-ESP32](https://github.com/espressif/arduino-esp32) | Mencionada en el anexo; revisar compatibilidad real |
 
 
+-----------
+
+
 | Función o parte del proyecto | Procedencia | Adaptación realizada | Estado |
 |:--|:--|:--|:--|
 | Lectura con promedio de 10 muestras | **Por confirmar con autores del firmware** | El informe presenta un promedio de lecturas analógicas y su uso en el sensor de suelo | Origen no identificado |
@@ -13,6 +16,7 @@
 | Mensajería y notificaciones Telegram | **Por confirmar con autores del firmware** | El anexo incluye envío por cambio de estado | Origen no identificado |
 | Conexión Wi-Fi con WPA2 Enterprise | **Por confirmar con autores del firmware** | Se muestra autenticación para la red universitaria | Origen no identificado |
 
+---------------
 Documentación del proyecto — ChatGPT
 - Herramienta: ChatGPT (OpenAI).
 - Fecha: noviembre de 2026.
