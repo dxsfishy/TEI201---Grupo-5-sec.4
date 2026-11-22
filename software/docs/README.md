@@ -12,7 +12,7 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 - Parámetros: pin (int): entrada analógica del sensor.
 - Retorna: int: promedio de las 10 lecturas ADC.
 - Ejemplo de uso:
-  ```
+  ```cpp
   int lecturaHumedad = promediarLectura(PIN_HUMEDAD); int lecturaLuz = promediarLectura(PIN_LUZ);```
 
 `calcularPorcentajeHumedad(int raw)`
@@ -20,14 +20,17 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 - Parámetros: raw (int): lectura filtrada del sensor capacitivo.
 - Retorna: int: porcentaje calculado a partir de las referencias RAW_SECO = 2965 y RAW_MOJADO = 2300.
 - Ejemplo de uso:
-  ```int humedadPorcentaje = calcularPorcentajeHumedad(lecturaHumedad);```
+  ```cpp
+  int humedadPorcentaje = calcularPorcentajeHumedad(lecturaHumedad);```
 
 `obtenerCategoriaHumedad(int porcentaje, int& estadoIndex)`
 - Propósito: clasificar el nivel de humedad y asignar un identificador de estado para detectar cambios.
 - Parámetros: porcentaje (int): humedad estimada; estadoIndex (int&): variable modificada por referencia para indicar la categoría.
 - Retorna: String: diagnóstico textual de humedad.
 - Ejemplo de uso:
- ```int estadoActual = 0;String diagnostico = obtenerCategoriaHumedad(humedadPorcentaje, estadoActual);``` 
+ ```cpp
+int estadoActual = 0;String diagnostico = obtenerCategoriaHumedad(humedadPorcentaje, estadoActual);
+ ```
 
 `setup()`
 - Propósito: iniciar el Monitor Serial, configurar la conexión de red y preparar el bot de Telegram.
