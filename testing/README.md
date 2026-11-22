@@ -81,13 +81,13 @@ Datos cuantitativos recolectados
 
 ## Validación de Impacto ODS
 
-**ODS Seleccionado:** [Número y nombre]
+**ODS Seleccionado:** ODS 12 — Producción y Consumo Responsables.
 
-**Meta específica del proyecto:** [Describir]
+**Meta específica del proyecto:** Promover el uso eficiente del agua en la agricultura urbana mediante el monitoreo de humedad y luminosidad del suelo, reduciendo el riego innecesario.
 
 **Indicadores de impacto:**
-1. [Indicador 1] - Baseline: [X], Meta: [Y], Alcanzado: [Z]
-2. [Indicador 2] - Baseline: [X], Meta: [Y], Alcanzado: [Z]
+1. Reducción del consumo de agua: Baseline: 0% de ahorro respecto al riego convencional, Meta: 20%, Alcanzado: 32% reportado en el informe final (pendiente de verificar con registros experimentales).
+2. Tiempo en condiciones óptimas de humedad: Meta: 80%, Alcanzado: 88% reportado en el informe final.
 
 **Proyección de impacto a escala:**
-[Si el prototipo se despliega en toda la ciudad/comunidad, cuál sería el impacto estimado]
+Si el sistema se implementara en 1.000 hogares y cada uno consumiera 100 litros mensuales en riego, una reducción hipotética del 32% permitiría ahorrar aproximadamente 32.000 litros de agua al mes, equivalentes a 384.000 litros anuales.
