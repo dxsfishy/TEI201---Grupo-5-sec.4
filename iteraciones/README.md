@@ -128,12 +128,13 @@ Evidencia: presentación Avance 2, secciones «Componentes», «Documentación t
 
 ## Métricas de Mejora
 
-| Métrica | v1 | v2 | v3 | Mejora Total |
-|---------|----|----|----| -------------|
-| Tiempo respuesta (ms) | 500 | 200 | 100 | ↓80% |
-| Consumo (mA) | 250 | 180 | 120 | ↓52% |
-| Tasa de errores (%) | 15 | 5 | 1 | ↓93% |
-| Satisfacción usuario (1-5) | 3.0 | 3.8 | 4.5 | ↑50% |
+| Métrica | v1 | v2 | v3 |
+|---------|----|----|----| 
+| Medición de humedad | ✅| ✅ | ✅ |
+| Envío al servidor | ❌ | ✅| ✅ |
+| Comunicación WiFi | ❌ | ✅ | ✅ |
+| Encapsulado | ❌ | Parcial | ✅ | 
+| Medición de la luz|❌ |❌ |✅|
 
 ---
 
