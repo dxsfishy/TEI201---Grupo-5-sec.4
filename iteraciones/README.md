@@ -59,7 +59,6 @@ Observación: las funciones propuestas en esta etapa no equivalen a componentes 
 
 ### Iteración 02 — Prototipo Alpha funcional
 **Fecha:** 28 de Octubre del 2026
-** Implementación descrita**
 ---
 La presentación Avance 2 — Sistema Inteligente de Monitoreo de Suelo documenta:
 - Sensor capacitivo de humedad de suelo v1.2.
@@ -85,28 +84,28 @@ Evidencia: presentación Avance 2, secciones «Componentes», «Documentación t
 
 ### Hardware
 **De v1 a v2:**
-- Cambio: [Descripción]
-- Razón: [Justificación técnica]
-- Impacto: [Mejora cuantitativa]
+- Cambio: Reorganización del montaje y conexiones eléctricas.
+- Razón: Reducir la exposición de los componentes a la humedad y evitar cortocircuitos.
+- Impacto: Mayor seguridad y estabilidad del prototipo.
 
 **De v2 a v3:**
-- Cambio: [Descripción]
-- Razón: [Justificación técnica]
-- Impacto: [Mejora cuantitativa]
+- Cambio: Incorporación del sensor de luminosidad KY-018.
+- Razón: Complementar las mediciones de humedad con información sobre la iluminación ambiental.
+- Impacto: Monitoreo más completo de las condiciones del cultivo.
 
 ### Software
 **De v1 a v2:**
-- [Cambios principales]
+- Se incorporó un filtro de lecturas para reducir el ruido y mejorar la estabilidad de las mediciones.
 
 **De v2 a v3:**
-- [Cambios principales]
+- Se mejoró la clasificación de humedad y se incorporó el procesamiento de datos lumínicos.
 
 ### Diseño 3D
 **De v1 a v2:**
-- [Cambios en encapsulado]
+- Se desarrolló un primer modelo de carcasa para organizar los componentes y protegerlos de factores externos.
 
 **De v2 a v3:**
-- [Cambios finales]
+- Diseño 3D: Se ajustó el diseño para considerar la incorporación del sensor de luz y facilitar el acceso a los componentes internos.
 
 ---
 
