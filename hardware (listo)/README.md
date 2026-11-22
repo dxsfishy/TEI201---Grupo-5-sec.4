@@ -68,10 +68,17 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 
 ## Troubleshooting
 
+## Troubleshooting
+
 | Problema | Posible Causa | Solución |
 |----------|---------------|----------|
-| [Problema 1] | [Causa] | [Solución] |
-| [Problema 2] | [Causa] | [Solución] |
+| Lecturas de humedad inestables | Ruido eléctrico en las señales analógicas del sensor. | Aplicar el filtro de promedio de 10 muestras y revisar las conexiones. |
+| Riesgo de cortocircuito | Exposición de la placa y conexiones a la humedad durante el riego. | Mantener la electrónica alejada del agua y proteger las conexiones. |
+| El sensor de humedad no entrega datos | Cableado incorrecto, alimentación insuficiente o conexión defectuosa. | Verificar VCC, GND y el pin de señal configurado en el ESP32. |
+| El sensor de luz no detecta cambios | Conexión incorrecta del KY-018 o configuración errónea del pin. | Revisar alimentación, conexión de señal y lectura analógica. |
+| El dispositivo no envía alertas | Conexión Wi-Fi inestable o configuración incorrecta de Telegram. | Verificar conexión de red, credenciales y configuración del bot. |
+| Las alertas no se repiten | El programa envía notificaciones únicamente cuando cambia el estado de humedad. | Comprobar si se produjo un cambio de categoría antes de considerar que existe una falla. |
+| El ESP32 se reinicia inesperadamente | Alimentación inestable o posible problema de cableado. | Verificar la fuente de alimentación y revisar las conexiones con el equipo desconectado. |
 
 ## Archivos incluidos
 
