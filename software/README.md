@@ -18,9 +18,9 @@ Documentación técnica del software
 
 ## Stack Tecnológico
 
-*Plataforma:* Arduino / ESP32  
-*Lenguaje:* C/C++  
-*IDE:* Arduino IDE 2.x  
+Plataforma: Arduino / ESP32  
+Lenguaje: C/C++  
+IDE: Arduino IDE 2.x  
 -----
 **Librerías Principales**
 | Librería | Función | Versión |
