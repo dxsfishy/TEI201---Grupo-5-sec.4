@@ -1,4 +1,4 @@
-### FUENTES — Dependencias, código externo e inteligencia artificial ###
+## FUENTES — Dependencias, código externo e inteligencia artificial ##
 
 Este archivo declara las fuentes identificables en la documentación del equipo. Antes de la entrega debe cotejarse con el código fuente efectivamente subido al repositorio y con los aportes de cada integrante. No se asignan versiones ni autorías que no hayan sido comprobadas.
 
