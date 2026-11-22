@@ -31,6 +31,7 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 - Alimentación: $7.990
 - Cables: $1.807
 - Encapsulado de impresión 3D: Realizado de forma independiente por uno de los integrantes
+
 **Total: $24.212**
 
 ##Observaciones
