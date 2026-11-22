@@ -13,7 +13,7 @@ El archivo anterior (`modelo_completo_v3.f3d`, de `120 × 80 mm`) fue reemplazad
 ## Estructura del Modelo
 
 ### Componentes (Components)
-```text
+text
 Ensamble_Principal
 ├── Tapa_Superior_ESP32        (Con cuna a presión y orificios pasantes avellanados M3)
 ├── Tapa_Inferior_Baterias     (Con guías de retención y tubos receptores roscados M3)
