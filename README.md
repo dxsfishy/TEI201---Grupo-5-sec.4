@@ -23,7 +23,7 @@ humedad y pH insertados directamente en el huerto. Indicará al usuario si el su
 está apto para el cultivo o no.
 
 ### Estado del Proyecto
-- Versión actual :v1.0
+- Versión actual :v3.0
 - Última actualización: 22/11/2026
 - Estado: Prototipo intermedio (Software óptimo y Encapsulado en desarrollo)
 
