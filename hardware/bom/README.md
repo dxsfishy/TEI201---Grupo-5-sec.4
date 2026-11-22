@@ -11,7 +11,7 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 | Cables Dupont Macho-Hembra |6 | Interconexión eléctrica | $50 | $300 | Universidad Adolfo Ibáñez |
 | Sensor de luz Ky018 | 1 |Captación de la luz ambiental, voltaje de funcionamiento: 3.3 V a 5 V | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
 | Cable USB | 1 |Programación y alimentación, USB-A a USB-C | $1.507 | $1.507 | Universidad Adolfo Ibáñez |
-| Batería Portátil 2000 mah|1|Alimentación | $7.990 | $7.990 | Falabella
+| Batería Portátil 2000 mah|1|Alimentación del prototipo| $7.990 | $7.990 | Falabella
 
 ---
 ## Archivos incluidos
