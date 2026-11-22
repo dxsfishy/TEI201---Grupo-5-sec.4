@@ -124,9 +124,10 @@ Sensor de luz (GPIO 5) ─────┘                       │
 ---
 
 ## API / Endpoints (si aplica)
+Se utilizó la API de bots de Telegram por medio de la librería `UniversalTelegramBot`
 
-| Endpoint | Método | Descripción |
-|----------|--------|-------------|
-| `/status` | GET | Estado del sistema |
-| `/data` | GET | Datos de sensores |
-| `/control` | POST | Control de actuadores |
+| Servicio / interfaz | Operación | Descripción |
+|---|---|---|
+| Telegram Bot API | `bot.sendMessage(...)` | Envía notificaciones cuando cambia la categoría de humedad |
+| Wi-Fi | Conexión de red | Permite al ESP32 comunicarse con Telegram |
+| Dashboard / API de almacenamiento | Por definir | No se encontró implementación ni URL verificable en el ZIP |.
