@@ -7,7 +7,7 @@
 
 
 -----------
-
+## Código externo usado o reutilizado
 
 | Función o parte del proyecto | Procedencia | Adaptación realizada | Estado |
 |:--|:--|:--|:--|
