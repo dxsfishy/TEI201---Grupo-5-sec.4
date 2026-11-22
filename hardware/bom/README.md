@@ -4,7 +4,7 @@
 
 Esta sección contempla los componentes utilizados en el desarrollo del prototipo con sus respectivos valores comerciales y 
 
-| ID | Componente / especificación | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Proveedor |
+| ID | Componente  | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Proveedor |
 |:--:|---|:--:|--:|--:|---|
 | H-01 | ESP32-S3 DevKit  | 1 | $7.490 | $7.490 | Universidad Adolfo Ibáñez |
 | H-02 | Sensor capacitivo de humedad de suelo v1.2 | 1 | $2.776 | $2.776 | Universidad Adolfo Ibáñez |
