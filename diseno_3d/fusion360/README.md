@@ -44,3 +44,12 @@ Parámetros principales utilizados en el diseño:
 2. Ir a **File > Open** (o *Archivo > Abrir*) y seleccionar el archivo `modelo_completo_v4.f3d`.
 3. Verificar en el **Browser** (navegador izquierdo) que todos los componentes y grupos rígidos estén activos y sin advertencias.
 4. Revisar el **Timeline** (historial inferior) y utilizar **Inspect > Section Analysis** para validar el encastre del canal hermético y el despeje interno entre los pines del ESP32-S3 y las baterías.
+
+## Versiones
+
+| Versión | Fecha | Cambios Principales |
+| :--- | :--- | :--- |
+| **v4.0** | 22/11/2026 | Rediseño completo a carcasa hermética de `80 × 80 mm` en dos tapas (*clamshell*): incorporación de cierre perimetral macho-hembra con junta de `2 mm`, 4 postes M3 en esquinas, cuna a presión para `ESP32-S3-WROOM-1` y guías internas para portabaterías `4× AA`. |
+| **v3.0** | 27/10/2026 | Versión final para Avance #3 (`120 × 80 × 35 mm`): modelo no hermético con rejillas de ventilación y calado USB. |
+| **v2.1** | — | Ajustes post Avance #2. |
+| **v1.0** | — | Primera versión funcional. |
