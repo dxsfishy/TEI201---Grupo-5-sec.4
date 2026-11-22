@@ -74,7 +74,7 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 | [Problema 2] | [Causa] | [Solución] |
 
 ## Archivos incluidos
-hardware/
+`hardware/
 │
 ├── esquemas/
 │   ├── esquema_electrico.pdf
@@ -93,3 +93,4 @@ hardware/
 │   └── README.md
 │
 └── README.md
+`
