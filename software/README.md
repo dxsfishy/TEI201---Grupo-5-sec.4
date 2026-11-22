@@ -4,7 +4,7 @@
 Esta carpeta contiene todo el código y documentación del software del proyecto.
 
 ### 📁 Carpetas
-
+sdsdsdsd
 #### `src/`
 Código fuente del proyecto (.ino para Arduino/ESP32)
 
