@@ -31,9 +31,9 @@ Cada carpeta debe incluir:
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
 | **Fecha** |24/08/26 | 28/10/26 |22/11/26 |
-| **Sensores** | [lista] | [lista] | [lista] |
-| **Actuadores** | [lista] | [lista] | [lista] |
-| **Conectividad** | [tipo] | [tipo] | [tipo] |
+| **Sensores** | Humedad | Humedad |  Humedad y Luz |
+| **Actuadores** | ❌ | Telegram | Telegram |
+| **Conectividad** | Wifi | Wifi | Wifi |
 | **Encapsulado** | ❌ | Prototipo | Finalizado |
 | **Testing** | Solo equipo | 2 usuarios | 5+ usuarios |
 | **Funcionalidad** | 60% | 80% | 100% |
@@ -55,7 +55,7 @@ Cada carpeta debe incluir:
 * Priorizar un prototipo realizable de monitoreo de humedad del suelo, con posibilidad de integrar otras variables ambientales posteriormente.
 
 Evidencia: Informe de problemática y conceptualización y Entregable 2, Grupo 5.
-Observación: las funciones propuestas en esta etapa no equivalen a componentes implementados.
+
 
 ### Iteración 02 — Prototipo Alpha funcional
 **Fecha:** 28 de Octubre del 2026
