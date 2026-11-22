@@ -21,8 +21,7 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 - `datasheets/` - Carpeta con PDFs de componentes críticos
 
 ---
-
-## Presupuesto Total
+## Presupuesto Total ##
 
 **Costo Total Estimado:** $24.212 CLP
 
