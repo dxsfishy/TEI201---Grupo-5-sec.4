@@ -13,8 +13,7 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 - Retorna: int: promedio de las 10 lecturas ADC.
 - Ejemplo de uso:
   ```
-  int lecturaHumedad = promediarLectura(PIN_HUMEDAD);
-  int lecturaLuz = promediarLectura(PIN_LUZ);```
+  int lecturaHumedad = promediarLectura(PIN_HUMEDAD); int lecturaLuz = promediarLectura(PIN_LUZ);```
 
 `calcularPorcentajeHumedad(int raw)`
 - Propósito: convertir la lectura ADC a una escala estimada de 0 a 100 %.
