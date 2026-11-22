@@ -30,7 +30,7 @@ Cada carpeta debe incluir:
 
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
-| **Fecha** | [fecha] | [fecha] | [fecha] |
+| **Fecha** |24/08/26 | 28/10/26 |22/11/26 |
 | **Sensores** | [lista] | [lista] | [lista] |
 | **Actuadores** | [lista] | [lista] | [lista] |
 | **Conectividad** | [tipo] | [tipo] | [tipo] |
@@ -110,22 +110,6 @@ Evidencia: presentación Avance 2, secciones «Componentes», «Documentación t
 
 ---
 
-## Incorporación de Feedback
-
-### Feedback del Avance #1 → Cambios en v2
-1. [Comentario profesor/ayudante]
-   - Acción tomada: [Descripción]
-
-### Feedback del Avance #2 → Cambios en v3
-1. [Comentario profesor/ayudante]
-   - Acción tomada: [Descripción]
-
-### Feedback de Usuarios → Cambios en v3
-1. [Comentario común de usuarios]
-   - Acción tomada: [Descripción]
-
----
-
 ## Métricas de Mejora
 
 | Métrica | v1 | v2 | v3 |
@@ -141,13 +125,13 @@ Evidencia: presentación Avance 2, secciones «Componentes», «Documentación t
 ## Lecciones Aprendidas
 
 ### Técnicas
-- [Lección 1]
-- [Lección 2]
+* Aprendimos a mejorar la estabilidad de las mediciones mediante filtros que reducen el ruido de los sensores.
+* Comprendimos la importancia de calibrar los sensores y verificar las conexiones para obtener datos confiables.
 
 ### De Proceso
-- [Lección 1]
-- [Lección 2]
+* Comprendimos que realizar pruebas periódicas permite detectar y corregir errores oportunamente.
+* Aprendimos que documentar cada avance facilita el seguimiento del proyecto y sus futuras mejoras.
 
 ### De Trabajo en Equipo
-- [Lección 1]
-- [Lección 2]
+* Reconocimos que una comunicación constante facilita la coordinación y evita retrasos.
+* Aprendimos que distribuir las tareas según las habilidades de cada integrante mejora la eficiencia del grupo.
