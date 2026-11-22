@@ -4,14 +4,14 @@
 
 Esta sección contempla los componentes utilizados en el desarrollo del prototipo con sus respectivos valores comerciales y 
 
-| ID | Componente / especificación | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Fuente / proveedor |
+| ID | Componente / especificación | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Proveedor |
 |:--:|---|:--:|--:|--:|---|
-| H-01 | ESP32-S3, variante **[VERIFICAR]** | 1 | **[ ]** | **[ ]** | **[ ]** |
-| H-02 | Sensor capacitivo de humedad de suelo v1.2 | 1 | **[ ]** | **[ ]** | **[ ]** |
-| H-03 | Cables Dupont, tipo **[VERIFICAR]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
-| H-04 | Módulo adicional **[IDENTIFICAR]** | 1 | **[ ]** | **[ ]** | **[ ]** |
-| H-05 | Cable USB / alimentación **[CONFIRMAR]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
-| H-06 | Material de fijación / protección **[SI SE UTILIZA]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
+| H-01 | ESP32-S3, variante **[VERIFICAR]** | 1 | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
+| H-02 | Sensor capacitivo de humedad de suelo v1.2 | 1 | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
+| H-03 | Cables Dupont, tipo **[VERIFICAR]** | **[ ]** | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
+| H-04 | Módulo adicional **[IDENTIFICAR]** | 1 | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
+| H-05 | Cable USB / alimentación **[CONFIRMAR]** | **[ ]** | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
+| H-06 | Material de fijación / protección **[SI SE UTILIZA]** | **[ ]** | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
 | | **TOTAL** | | | **[SUMAR]** | |
 
 ---
