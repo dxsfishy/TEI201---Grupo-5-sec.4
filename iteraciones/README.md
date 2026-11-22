@@ -72,7 +72,7 @@ La presentación incluye una demostración de lectura del sensor y alertas. No p
 
 Evidencia: presentación Avance 2, secciones «Componentes», «Documentación técnica» y «Demostración en vivo».
 
-### Versión 3 (Iteración 3) - Versión Final
+### Iteración 3 - Versión Final
 **Fecha:** 22 de noviembre del 2026 
 
 | Problema observado | Cambio descrito por el equipo | Propósito | Qué falta verificar |
