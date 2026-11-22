@@ -24,8 +24,8 @@ está apto para el cultivo o no.
 
 ### Estado del Proyecto
 - Versión actual :v1.0
-- Última actualización: 25/10/2026
-- Estado: Prototipo básico (Incluye el sensor de humedad y envío de mensajes a Telegram)
+- Última actualización: 22/11/2026
+- Estado: Prototipo intermedio (Software óptimo y Encapsulado en desarrollo)
 
 ---
 ## Arquitectura del prototipo 
