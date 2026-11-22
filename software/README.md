@@ -4,7 +4,7 @@
 Esta carpeta contiene todo el código y documentación del software del proyecto.
 
 ### 📁 Carpetas
-sdsdsdsd
+
 #### `src/`
 Código fuente del proyecto (.ino para Arduino/ESP32)
 
@@ -16,12 +16,12 @@ Documentación técnica del software
 
 ---
 
-## Stack Tecnológico
+## Stack Tecnológico ##
 
 Plataforma: Arduino / ESP32  
 Lenguaje: C/C++  
 IDE: Arduino IDE 2.x  
------
+
 **Librerías Principales**
 | Librería | Función |  
 |---|---|
