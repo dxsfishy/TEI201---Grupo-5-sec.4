@@ -25,7 +25,6 @@ Preparar el paquete de placas esp32 de Espressif Systems mediante el Gestor de p
    - Instalación: no corresponde instalarlo como biblioteca independiente sin comprobar compatibilidad. Su disponibilidad y la API de autenticación dependen de la versión del núcleo Arduino-ESP32 / ESP-IDF.
    - Versión: compatibilidad por verificar con el firmware y la placa reales.
   
----
 
 ## Librerías Personalizadas/Modificadas ## 
 Para el desarrollo del prototipo no se utilizaron librerías persnalizadas
