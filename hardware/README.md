@@ -1,4 +1,4 @@
-Hardware — Sistema Inteligente de Monitoreo de Suelo
+### Hardware - Documentación ###
 
 
 1. Descripción general
