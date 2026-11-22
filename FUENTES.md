@@ -1,3 +1,6 @@
+
+## Librerías y dependencias
+
 | Librería / componente | Versión usada | Función declarada | Fuente de referencia | Estado de verificación |
 |:--|:--|:--|:--|:--|
 | `WiFi.h` (Arduino-ESP32) | **Por confirmar** | Conexión Wi-Fi del ESP32 | [Espressif: Arduino-ESP32](https://github.com/espressif/arduino-esp32) | Mencionada en el anexo; cotejar con firmware actual |
