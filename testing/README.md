@@ -58,8 +58,6 @@ Datos cuantitativos recolectados
 * Registrar las respuestas individuales para calcular los promedios y analizar los resultados.
 ---
 
-## Métricas de Evaluación
-
 ## Testing con Usuarios
 
 ### 1. Perfil de los participantes
