@@ -40,9 +40,9 @@ Cada carpeta debe incluir:
 
 ---
 
-## Evolución del Diseño
+### Evolución del Diseño
 
-### Iteración 01 — Conceptualización de la solución
+## Iteración 01 — Conceptualización de la solución
 **Fecha:** 24 de agosto del 2026
 -------
 **Problema de partida**
@@ -57,17 +57,19 @@ Cada carpeta debe incluir:
 Evidencia: Informe de problemática y conceptualización y Entregable 2, Grupo 5.
 Observación: las funciones propuestas en esta etapa no equivalen a componentes implementados.
 
-### Versión 2 (Iteración 2) - Primera Mejora
-**Fecha:** [XX/XX/2025]  
-**Estado:** Prototipo funcional mejorado
+### Iteración 02 — Prototipo Alpha funcional
+##Implementación descrita
+---
+La presentación Avance 2 — Sistema Inteligente de Monitoreo de Suelo documenta:
+- Sensor capacitivo de humedad de suelo v1.2.
+- Procesamiento mediante ESP32.
+- Filtrado de lecturas analógicas usando un promedio de 10 muestras.
+- Conversión de lecturas a una escala porcentual y clasificación de estado hídrico.
+- Conexión Wi-Fi y alertas mediante un bot de Telegram.
+## Resultado y limitaciones
+La presentación incluye una demostración de lectura del sensor y alertas. No proporciona, por sí sola, una base de datos o registros completos para verificar estabilidad a largo plazo.
 
-**Mejoras implementadas:**
-- [Mejora 1]
-- [Mejora 2]
-
-**Problemas pendientes:**
-- [Problema 1]
-- [Problema 2]
+Evidencia: presentación Avance 2, secciones «Componentes», «Documentación técnica» y «Demostración en vivo».
 
 ### Versión 3 (Iteración 3) - Versión Final
 **Fecha:** [XX/XX/2025]  
