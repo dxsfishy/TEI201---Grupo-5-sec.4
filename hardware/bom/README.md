@@ -10,8 +10,8 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 | H-02 | Sensor capacitivo de humedad de suelo v1.2 | 1 | $2.776 | $2.776 | Universidad Adolfo Ibáñez |
 | H-03 | Cables Dupont Macho-Hembra | **[ ]** | $50 | **[ ]** | Universidad Adolfo Ibáñez |
 | H-04 | Sensor de luz Ky018 | 1 | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
-| H-05 | Cable USB / alimentación **[CONFIRMAR]** | **[ ]** | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
-| H-06 | Batería Portátil | 1 | $.... | $..... | Falabella
+| H-05 | Cable USB | 1 | $1.507 | $1.507 | Universidad Adolfo Ibáñez |
+| H-06 | Batería Portátil 2000 mah| 1 | $7.990 | $7.990 | Falabella
 | H-07 | Material de fijación / protección **[SI SE UTILIZA]** | **[ ]** | **[ ]** | **[ ]** | Universidad Adolfo Ibáñez |
 | | **TOTAL** | | | **[SUMAR]** | |
 
