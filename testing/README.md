@@ -21,14 +21,19 @@ Datos cuantitativos recolectados
 ## Metodología de Testing
 
 ### Grupo Objetivo
-- **Perfil de usuarios:** [Descripción]
-- **Cantidad mínima:** 5 usuarios
-- **Ubicación:** [Contexto real de uso]
+* **Perfil de usuarios:** Adultos de 25 a 45 años interesados en la jardinería doméstica y el cuidado de plantas, con conocimientos tecnológicos básicos.
+
+* **Cantidad mínima:** 5 usuarios.
+
+* **Ubicación:** Hogares y espacios de agricultura urbana de la Región Metropolitana, principalmente balcones, terrazas y jardines domésticos.
 
 ### Protocolo de Testing
 1. **Briefing** (5 min)
-   - Explicar propósito del prototipo
-   - Contexto de uso
+* Explicar el propósito del sistema de monitoreo de suelo.
+
+* Presentar los sensores de humedad y luminosidad.
+
+* Contextualizar su utilidad para optimizar el riego doméstico.
 
 2. **Sesión de Uso** (15-20 min)
    - Usuario interactúa con prototipo
