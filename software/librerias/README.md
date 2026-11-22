@@ -28,33 +28,15 @@ Preparar el paquete de placas esp32 de Espressif Systems mediante el Gestor de p
 ---
 
 ## Librerías Personalizadas/Modificadas
-
-Si hay librerías modificadas o no disponibles en Arduino IDE, incluir en esta carpeta:
-
-### Estructura
-```
-librerias/
-├── MiLibreria/
-│   ├── MiLibreria.h
-│   ├── MiLibreria.cpp
-│   ├── keywords.txt
-│   └── README.md
-```
-
-### Instalación Manual
-```bash
-# Copiar carpeta a Arduino libraries
-cp -r MiLibreria ~/Documents/Arduino/libraries/
-```
-
+Para el desarrollo del prototipo no se utilizaron librerías persnalizadas
 ---
 
 ## Dependencias Completas
 
-Listar TODAS las librerías necesarias con versiones exactas:
-
-| Librería | Versión | Fuente | Obligatoria |
-|----------|---------|--------|-------------|
-| WiFi | Built-in | ESP32 Core | ✅ |
-| [Lib 1] | x.x.x | Arduino Library Manager | ✅ |
-| [Lib 2] | x.x.x | GitHub | ❌ |
+| Librería / componente | Versión | Fuente | Obligatoria |
+|---|---|---|---|
+| `WiFi.h` | Núcleo ESP32: por confirmar | Paquete `esp32` de Espressif Systems | Sí |
+| `WiFiClientSecure.h` | Núcleo ESP32: por confirmar | Paquete `esp32` de Espressif Systems | Sí, para el código Telegram documentado |
+| `UniversalTelegramBot` | Por confirmar | Arduino Library Manager / [GitHub](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot) | Sí, para el código Telegram documentado |
+| `ArduinoJson` | Por confirmar | Arduino Library Manager / [GitHub](https://github.com/bblanchon/ArduinoJson) | Dependencia de UniversalTelegramBot; confirmar compatibilidad |
+| `esp_wpa2.h` | Por confirmar | Soporte ESP32 / ESP-IDF de la versión utilizada | Solo si se mantiene la implementación WPA2 Enterprise del informe |
