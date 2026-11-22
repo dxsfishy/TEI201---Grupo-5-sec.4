@@ -1,8 +1,8 @@
 # Bill of Materials (BOM)
 
-## Formato del Archivo
+## Descripción
 
-El archivo BOM debe incluir las siguientes columnas:
+Esta sección contempla los componentes utilizados en el desarrollo del prototipo con sus respectivos valores comerciales y 
 
 | ID | Componente / especificación | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Fuente / proveedor |
 |:--:|---|:--:|--:|--:|---|
@@ -16,7 +16,7 @@ El archivo BOM debe incluir las siguientes columnas:
 
 ---
 
-## Archivos a Incluir
+## Archivos incluidos
 
 - `bom_completo.xlsx` - Lista completa de materiales
 - `bom_completo.pdf` - Versión PDF para visualización
