@@ -36,19 +36,26 @@ Datos cuantitativos recolectados
 * Contextualizar su utilidad para optimizar el riego doméstico.
 
 2. **Sesión de Uso** (15-20 min)
-   - Usuario interactúa con prototipo
-   - Observación sin intervención
-   - Toma de notas
+* El usuario interactúa con el sistema y consulta las mediciones.
 
+* Interpreta los estados de humedad y las alertas de Telegram.
+
+* Se registran dificultades, dudas y comportamientos relevantes.
 3. **Entrevista Post-Testing** (10 min)
-   - Preguntas sobre experiencia
-   - Feedback cualitativo
-   - Sugerencias de mejora
+* Consultar sobre la facilidad de uso del dispositivo.
+
+* Evaluar la claridad de las mediciones y notificaciones.
+
+* Recoger opiniones sobre su utilidad para el cuidado de plantas.
+
+* Solicitar sugerencias de mejora.
 
 4. **Encuesta Cuantitativa** (5 min)
-   - Escala Likert (1-5)
-   - Métricas específicas
+* Aplicar una escala Likert de 1 a 5.
 
+* Evaluar la facilidad de uso, claridad de las alertas, utilidad percibida y satisfacción general.
+
+* Registrar las respuestas individuales para calcular los promedios y analizar los resultados.
 ---
 
 ## Métricas de Evaluación
