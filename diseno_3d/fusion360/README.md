@@ -1,10 +1,10 @@
 Markdown
 # Archivos Nativos - Fusion 360
 
-Esta carpeta contiene el archivo fuente paramétrico del encapsulado 3D (`modelo_completo_v4.f3d`).
+Esta carpeta contiene el archivo fuente paramétrico del encapsulado 3D (`modelo_completo_v4.f3z`).
 
 ## 🔄 Justificación del Cambio de Modelo (v3.0 ➡️ v4.0)
-El archivo anterior (`modelo_completo_v3.f3d`, de `120 × 80 mm`) fue reemplazado por la nueva versión hermética `modelo_completo_v4.f3d` (`80 × 80 mm`) por dos razones técnicas principales:
+El archivo anterior (`modelo_completo_v3.f3z`, de `120 × 80 mm`) fue reemplazado por la nueva versión hermética `modelo_completo_v4.f3z` (`80 × 80 mm`) por dos razones técnicas principales:
 1. **Hermeticidad e impermeabilidad:** Se eliminaron las aberturas expuestas (puertos y rejillas abiertas) y se incorporó un cierre perimetral macho-hembra (*tongue-and-groove*) diseñado para alojar una junta/cordón de sellado de `2 mm`, comprimido mediante 4 tornillos M3 en las esquinas.
 2. **Integración y distribución del hardware:** Se reorganizó la arquitectura en dos tapas independientes (*clamshell*) para alojar el `ESP32-S3-WROOM-1` en una mitad (mediante una cuna perimetral a presión sin tornillos que protege los pines soldados) y el portabaterías `4× AA` (`61.95 × 57.75 mm`) en la otra mitad con guías de retención.
 
@@ -41,7 +41,7 @@ Parámetros principales utilizados en el diseño:
 
 ## Instrucciones de Apertura
 1. Abrir **Autodesk Fusion** (Fusion 360).
-2. Ir a **File > Open** (o *Archivo > Abrir*) y seleccionar el archivo `modelo_completo_v4.f3d`.
+2. Ir a **File > Open** (o *Archivo > Abrir*) y seleccionar el archivo `modelo_completo_v4.f3z`.
 3. Verificar en el **Browser** (navegador izquierdo) que todos los componentes y grupos rígidos estén activos y sin advertencias.
 4. Revisar el **Timeline** (historial inferior) y utilizar **Inspect > Section Analysis** para validar el encastre del canal hermético y el despeje interno entre los pines del ESP32-S3 y las baterías.
 
