@@ -36,5 +36,5 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 
 ## Observaciones ##
 * La gran mayoría de los componentes electrónicos utilizados en el proyecto fueron facilitados por el Design Engineering Center (DEC) de la Universidad Adolfo Ibáñez.
-* Los precios referidos corresponden a valores promedio de mercado para estimar el costo del prototipo.
+* Los precios referidos corresponden a valores de mercado para estimar el costo del prototipo.
 * Los datasheets de los componentes principales deben almacenarse en la carpeta datasheets/ para facilitar futuras consultas técnicas.
