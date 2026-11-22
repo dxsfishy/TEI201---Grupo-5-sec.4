@@ -4,17 +4,15 @@
 
 El archivo BOM debe incluir las siguientes columnas:
 
-| Columna | Descripción | Ejemplo |
-|---------|-------------|---------|
-| Cantidad | Número de unidades | 1 |
-| Componente | Nombre descriptivo | ESP32 DevKit V1 |
-| Especificación | Detalles técnicos | 30 pines, WiFi+BT |
-| Fabricante | Marca del componente | Espressif |
-| Código/SKU | Identificador único | ESP32-WROOM-32 |
-| Proveedor | Tienda/distribuidor | AliExpress, MercadoLibre |
-| Precio Unitario | Costo por unidad (CLP) | $8,990 |
-| Precio Total | Cantidad × Precio | $8,990 |
-| Datasheet | Link a especificaciones | [URL] |
+| ID | Componente / especificación | Cant. | Precio unitario (CLP) | Subtotal (CLP) | Fuente / proveedor |
+|:--:|---|:--:|--:|--:|---|
+| H-01 | ESP32-S3, variante **[VERIFICAR]** | 1 | **[ ]** | **[ ]** | **[ ]** |
+| H-02 | Sensor capacitivo de humedad de suelo v1.2 | 1 | **[ ]** | **[ ]** | **[ ]** |
+| H-03 | Cables Dupont, tipo **[VERIFICAR]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
+| H-04 | Módulo adicional **[IDENTIFICAR]** | 1 | **[ ]** | **[ ]** | **[ ]** |
+| H-05 | Cable USB / alimentación **[CONFIRMAR]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
+| H-06 | Material de fijación / protección **[SI SE UTILIZA]** | **[ ]** | **[ ]** | **[ ]** | **[ ]** |
+| | **TOTAL** | | | **[SUMAR]** | |
 
 ---
 
