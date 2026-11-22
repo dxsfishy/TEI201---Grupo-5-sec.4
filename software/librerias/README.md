@@ -27,9 +27,9 @@ Preparar el paquete de placas esp32 de Espressif Systems mediante el Gestor de p
   
 ---
 
-## Librerías Personalizadas/Modificadas
+## Librerías Personalizadas/Modificadas ## 
 Para el desarrollo del prototipo no se utilizaron librerías persnalizadas
----
+
 
 ## Dependencias Completas
 
