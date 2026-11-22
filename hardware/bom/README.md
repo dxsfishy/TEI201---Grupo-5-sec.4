@@ -9,7 +9,7 @@ Esta sección contempla los componentes utilizados en el desarrollo del prototip
 | ESP32-S3 DevKit  | 1 |Lectura, procesamiento y comunicación Wi-Fi | $7.490 | $7.490 | Universidad Adolfo Ibáñez |
 | Sensor capacitivo de humedad de suelo v1.2 | 1 | Obtener una señal relacionada con la humedad del suelo | $2.776 | $2.776 | Universidad Adolfo Ibáñez |
 | Cables Dupont Macho-Hembra |6 | Interconexión eléctrica | $50 | $300 | Universidad Adolfo Ibáñez |
-| Sensor de luz Ky018 | 1 |1 | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
+| Sensor de luz Ky018 | 1 |Captación de la luz ambiental | $4.149 | $4.149 | Universidad Adolfo Ibáñez |
 | Cable USB | 1 |Programación y alimentación | $1.507 | $1.507 | Universidad Adolfo Ibáñez |
 | Batería Portátil 2000 mah|1|Alimentación | $7.990 | $7.990 | Falabella
 
