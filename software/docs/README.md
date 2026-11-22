@@ -41,7 +41,7 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 - Retorna: void.
 - Ejemplo de uso: Arduino llama a `loop()` repetidamente después de `setup()`.
 
-## Criterios de clasificación 
+## Criterios de clasificación (humedad y luz ambiental)
 
 | Humedad estimada | Estado |
 |---|---|
