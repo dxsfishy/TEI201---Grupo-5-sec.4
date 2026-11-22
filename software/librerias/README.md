@@ -2,7 +2,7 @@
 
 ## Librerías Estándar (Arduino IDE)
 
-Preparar el paquete de placas esp32 de Espressif Systems mediante el Gestor de placas de Arduino IDE y luego instalar las bibliotecas adicionales desde Programa / Sketch > Incluir librería > Administrar bibliotecas.
+Preparar el paquete de placas esp32 de Espressif Systems mediante el Gestor de placas de Arduino IDE y luego instalar las bibliotecas adicionales desde **Programa / Sketch > Incluir librería > Administrar bibliotecas.**
 1. `WiFi.h `— Incluida en el núcleo Arduino-ESP32
    - Propósito: establecer y gestionar la conexión Wi-Fi del dispositivo.
    - Instalación: se distribuye con el paquete de placas esp32 de Espressif Systems; no se instala normalmente como biblioteca adicional.
