@@ -38,7 +38,7 @@ Paso 3 — Compatibilidad eléctrica. Confirmar que las tensiones de alimentaci�
 
 Paso 4 — Sensor de humedad. Unir la tierra del sensor a GND de la placa; conectar VCC a una alimentación compatible y la salida del sensor a un GPIO ADC previamente identificado.
 
-Paso 5 — Sensor de luz. Conectar alimentación, tierra y señal(es) según su modelo exacto y los pines configurados en el firmware. Si es un sensor I²C, documentar SDA/SCL; si es analógico, documentar la salida y el ADC utilizado. No escoger conexiones al azar.
+Paso 5 — Sensor de luz. Conectar alimentación, tierra y señal(es) según su modelo exacto y los pines configurados en el firmware. 
 
 Paso 6 — Inspección del circuito. Revisar conectores, continuidad, posibles contactos accidentales, cables dañados y polaridad antes de energizar.
 
@@ -47,8 +47,6 @@ Paso 7 — Alimentación y programación. Conectar el cable USB compatible únic
 Paso 8 — Verificación de lecturas. Comprobar en el monitor serial o interfaz disponible las lecturas del sensor de humedad y del sensor de luz. Registrar las condiciones de cada prueba.
 
 Paso 9 — Organización del montaje. Evitar cables tirantes o sueltos y mantener la electrónica sobre una superficie seca y aislante.
-
-Paso 10 — Documentación. Fotografiar el circuito desde al menos tres ángulos, actualizar el esquemático y completar la tabla de conexiones con los GPIO realmente utilizados.
 
 ### Precauciones
 - ⚠️ [Precaución 1]
