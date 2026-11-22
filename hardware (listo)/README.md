@@ -80,7 +80,6 @@ Estas instrucciones describen el procedimiento recomendado para reproducir y ver
 | Las alertas no se repiten | El programa envía notificaciones únicamente cuando cambia el estado de humedad. | Comprobar si se produjo un cambio de categoría antes de considerar que existe una falla. |
 | El ESP32 se reinicia inesperadamente | Alimentación inestable o posible problema de cableado. | Verificar la fuente de alimentación y revisar las conexiones con el equipo desconectado. |
 
-## Archivos incluidos
 
 ## Estructura de archivos
 
