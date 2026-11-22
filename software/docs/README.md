@@ -7,16 +7,57 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 
 #### Funciones Principales
 
-**función1()**
-- **Propósito:** [Descripción]
-- **Parámetros:** [Tipo y descripción]
-- **Retorna:** [Tipo y descripción]
-- **Ejemplo de uso:**
-```cpp
-// Código de ejemplo
-```
+`promediarLectura(int pin)`
+- Propósito: reducir fluctuaciones de lectura mediante el promedio aritmético de 10 valores analógicos.
+- Parámetros: pin (int): entrada analógica del sensor.
+- Retorna: int: promedio de las 10 lecturas ADC.
+- Ejemplo de uso:
+  int lecturaHumedad = promediarLectura(PIN_HUMEDAD);
+  int lecturaLuz = promediarLectura(PIN_LUZ);
 
----
+`calcularPorcentajeHumedad(int raw)`
+- Propósito: convertir la lectura ADC a una escala estimada de 0 a 100 %.
+- Parámetros: raw (int): lectura filtrada del sensor capacitivo.
+- Retorna: int: porcentaje calculado a partir de las referencias RAW_SECO = 2965 y RAW_MOJADO = 2300.
+- Ejemplo de uso:
+  int humedadPorcentaje = calcularPorcentajeHumedad(lecturaHumedad);
+
+`obtenerCategoriaHumedad(int porcentaje, int& estadoIndex)`
+- Propósito: clasificar el nivel de humedad y asignar un identificador de estado para detectar cambios.
+- Parámetros: porcentaje (int): humedad estimada; estadoIndex (int&): variable modificada por referencia para indicar la categoría.
+- Retorna: String: diagnóstico textual de humedad.
+- Ejemplo de uso:
+  int estadoActual = 0;
+  String diagnostico = obtenerCategoriaHumedad(humedadPorcentaje, estadoActual);
+
+`setup()`
+- Propósito: iniciar el Monitor Serial, configurar la conexión de red y preparar el bot de Telegram.
+- Parámetros: ninguno.
+- Retorna: `void`.
+- Ejemplo de uso: Arduino ejecuta `setup()` automáticamente una sola vez al iniciar o reiniciar.
+
+`loop()`
+- Propósito: ejecutar periódicamente el ciclo de adquisición y notificar cambios de categoría de humedad.
+- Parámetros: ninguno.
+- Retorna: void.
+- Ejemplo de uso: Arduino llama a `loop()` repetidamente después de `setup()`.
+
+**Criterios de clasificación
+
+| Humedad estimada | Estado |
+|---|---|
+| Menor que 25 % | Seco |
+| 25–54 % | Óptimo |
+| 55–74 % | Húmedo |
+| 75–100 % | Empapado |
+
+
+| Lectura ADC del KY-018 | Estado lumínico |
+|---|---|
+| Mayor que 3000 | Oscuro |
+| 2001–3000 | Sombra |
+| 1001–2000 | Luz moderada |
+| 0–1000 | Sol directo |
 
 ## Manual de Instalación
 
@@ -27,27 +68,32 @@ Esta carpeta reúne los diagramas, la descripción de funciones y los procedimie
 ## Manual de Operación
 
 ### Encendido del Sistema
-1. [Paso 1]
-2. [Paso 2]
+1. Ubicar el sensor de humedad en el sustrato y el sensor KY-018 en una posición desde la que pueda registrar la iluminación ambiente, sin exponer la electrónica a salpicaduras.
+2. Alimentar el ESP32 mediante una fuente adecuada a la placa y encender el dispositivo.
+3. Abrir el Monitor Serial si se necesita supervisar el inicio y confirmar conexión Wi-Fi; revisar en Telegram la notificación de inicio o primer cambio de estado, según el firmware efectivamente instalado.
 
 ### Operación Normal
-1. [Paso 1]
-2. [Paso 2]
+1. El ESP32 realiza el ciclo de lectura con un intervalo documentado de 10 segundos.
+2. En cada ciclo obtiene el promedio de 10 muestras analógicas por sensor.
+3. Calcula el porcentaje estimado de humedad y clasifica la luminosidad.
+4. Cuando cambia la categoría de humedad, prepara una notificación de Telegram que incluye humedad, diagnóstico y nivel de luz.
+5. El usuario interpreta el estado recibido y decide si corresponde revisar o ajustar el riego de la planta.
 
 ### Apagado del Sistema
-1. [Paso 1]
-2. [Paso 2]
-
+1. Finalizar la observación y guardar los registros necesarios de la prueba.
+2. Desconectar de forma segura la fuente de alimentación del ESP32.
+3. Si se necesita modificar el cableado, hacerlo siempre con la placa desenergizada; mantener secos los componentes electrónicos.
 ---
 
 ## Troubleshooting
+Problemas Comunes
+Problema 1: No conecta a WiFi
+- Causa probable: credenciales incorrectas, falta de cobertura o tipo de autenticación incompatible con la configuración del firmware (por ejemplo, WPA2 Enterprise frente a una red doméstica).
+- Solución: verificar el SSID, las credenciales y el método de autenticación; revisar mensajes del Monitor Serial y probar con una red compatible. Comprobar también la versión del núcleo ESP32 y el código de autenticación utilizado.
+Problema 2: Sensor no responde
+- Causa probable: pines o cableado incorrectos, alimentación defectuosa o selección de una placa distinta a la utilizada en el código.
+- Solución: desconectar la energía, revisar señal/VCC/GND y confirmar que los pines elegidos admiten lectura analógica en el microcontrolador real. No utilizar automáticamente GPIO 4 y 5 si la placa es un ESP32 clásico.
+Problema 3: Las lecturas de humedad fluctúan demasiado
+- Causa probable: ruido en la señal ADC, conexiones flojas, variaciones de alimentación o calibración insuficiente.
+- Solución: revisar el cableado y la alimentación, verificar que se esté aplicando el promedio de 10 muestras y repetir la calibración en condiciones de referencia.
 
-### Problemas Comunes
-
-**Problema 1: No conecta a WiFi**
-- Causa probable: [Explicación]
-- Solución: [Pasos]
-
-**Problema 2: Sensor no responde**
-- Causa probable: [Explicación]
-- Solución: [Pasos]
