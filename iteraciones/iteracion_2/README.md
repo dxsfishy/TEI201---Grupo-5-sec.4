@@ -89,19 +89,19 @@ Incluir en esta carpeta:
 ### Problema 1
 **Descripción**
 - El sistema enviaba notificaciones de Telegram en cada iteración mientras se mantuviera una condición, saturando el chat del usuario.
-**Prioridad**
+ **Prioridad**
 - Alta.
-**Plan para v3**
+ **Plan para v3**
 - Implementar una variable de memoria de estado (`estadoAnteriorHumedad`) para enviar alertas únicamente cuando exista una transición real de categoría.
 
 ---
 
 ### Problema 2
-**Descripción**
+ **Descripción**
 - El encapsulado requería ajustes en las holguras internas para alojar cómodamente los cables Dupont y permitir el acceso al puerto USB-C del ESP32-S3.
-**Prioridad**
+ **Prioridad**
 - Alta.
-**Plan para v3**
+ **Plan para v3**
 - Refinar las tolerancias del modelo 3D, imprimir la carcasa definitiva y ensamblar el prototipo final.
 
 
