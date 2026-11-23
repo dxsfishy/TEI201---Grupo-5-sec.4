@@ -8,7 +8,7 @@
 | Roberto Carabantes  | Hardware       | dxsfishy  |
 | Martín León     | Iteraciones y pruebas        | martinch0-1  |
 | Mariano Lara  | Diseño 3D       | SrCraneo  |
-| Pedro Monserrat |  Software | pedrinho-qw
+| Pedro Monserrat |  Software | pedrinho-wq
 |Benjamín Nicuñir | Diseño 3D | baaingr
       
 --- 
