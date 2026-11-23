@@ -3,10 +3,9 @@
 ## Renders Requeridos (Mínimo 4 ángulos)
 
 ### 1. Vista Isométrica Frontal
-`01_isometrica_frontal.png`
-- Muestra exterior completo
-- Iluminación clara
-- Resolución: 1920×1080 mínimo
+- Archivo: [`01_isometrica_frontal_v3.png`](01_isometrica_frontal_v3.png)
+- Versión: v3.
+- Resolución comprobada: 1920 × 1080 píxeles.
 
 ### 2. Detalle de Sensores
 - Archivo: [`02_detalles_sensores_v3.png`](02_detalles_sensores_v3.png)
