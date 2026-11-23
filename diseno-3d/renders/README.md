@@ -3,21 +3,22 @@
 ## Renders Requeridos (Mínimo 4 ángulos)
 
 ### 1. Vista Isométrica Frontal
-- Archivo: [`01_isometrica_frontal_v4.png`](01_isometrica_frontal_v3.png)
+- Archivo: [`01_isometrica_frontal_v4.png`](01_isometrica_frontal_v4.png)
 - Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 
 ### 2. Detalle de Sensores
-- Archivo: [`02_detalles_sensores_v4.png`](02_detalles_sensores_v3.png)
+- Archivo: [`02_detalles_sensores_v4.png`](02_detalles_sensores_v4.png)
 - Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 ### 3. Ensamble Explosionado
-- Archivo: [`03_ensamble_explosionado_v4.png`](03_ensamble_explosionado_v3.png)
+- Archivo: [`03_ensamble_explosionado_v4.png`](03_ensamble_explosionado_v4.png)
 - Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 ### 4. Vista Adicional — Pendiente
-- Archivo: aún no disponible en la copia revisada.
-- Sugerencia: agregar una vista interior o de sección del encapsulado definitivo, idealmente correspondiente a v4.
+- Archivo: [`04_vista_adicional_v4.png`](04_vista_adicional_v4.png)
+- Versión: v4.
+- Resolución comprobada: 1920 × 1080 píxeles.
 ---
 
 ## Configuración de Render en Fusion 360
