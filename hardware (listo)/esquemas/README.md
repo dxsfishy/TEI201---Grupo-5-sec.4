@@ -9,11 +9,11 @@ Los potenciómetros representan las señales analógicas del sensor capacitivo d
 ---
 
 ## Notas de Diseño
-*Se emplearon dos entradas analógicas independientes para monitorear humedad y luminosidad.
-*Se definió una alimentación común de 3.3V y conexiones GND para los módulos.
-*Se priorizó la simplicidad del circuito y la facilidad de reproducción.
-*La simulación representa las conexiones eléctricas, mientras que el funcionamiento del sistema depende del firmware desarrollado.
-*El modelo y las conexiones deben verificarse con la placa física utilizada antes de energizar el montaje.
+* Se emplearon dos entradas analógicas independientes para monitorear humedad y luminosidad.
+* Se definió una alimentación común de 3.3V y conexiones GND para los módulos.
+* Se priorizó la simplicidad del circuito y la facilidad de reproducción.
+* La simulación representa las conexiones eléctricas, mientras que el funcionamiento del sistema depende del firmware desarrollado.
+* El modelo y las conexiones deben verificarse con la placa física utilizada antes de energizar el montaje.
 
 ---
 #Software Utilizado
