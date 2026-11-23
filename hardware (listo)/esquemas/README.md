@@ -1,4 +1,4 @@
-# Esquemas de Circuito
+# Esquema de Circuito Wokwi
 
 ## Archivos Incluidos
 - Circuito Wokwi con su respectivo diagrama
