@@ -15,7 +15,7 @@ Debido a la disponibilidad de componentes en el simulador, se utilizaron dos pot
 * Potenciómetro 1: representa el sensor de humedad del suelo.
 
 * Potenciómetro 2: representa el sensor de luminosidad KY-018.
----
+
 
 ## Notas de Diseño
 * Se emplearon dos entradas analógicas independientes para monitorear humedad y luminosidad.
