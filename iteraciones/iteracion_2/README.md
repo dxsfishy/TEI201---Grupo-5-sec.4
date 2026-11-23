@@ -75,12 +75,12 @@ Incluir en esta carpeta:
 
 ### Funcionalidad Lograda
 
-✅ Lectura filtrada y simultánea de humedad y luz.
-✅ Clasificación automática en 4 categorías de humedad y 3 de luminosidad.
-✅ Conexión estable a red WiFi local.
-✅ Envío exitoso de mensajes de prueba a Telegram.
-⚠️ Envío repetitivo de mensajes en cada ciclo del `loop()` (generaba spam en el chat).
-⚠️ Encapsulado aún en fase de ajuste de tolerancias para impresión 3D.
+-✅ Lectura filtrada y simultánea de humedad y luz.
+-✅ Clasificación automática en 4 categorías de humedad y 3 de luminosidad.
+-✅ Conexión estable a red WiFi local.
+-✅ Envío exitoso de mensajes de prueba a Telegram.
+-⚠️ Envío repetitivo de mensajes en cada ciclo del `loop()` (generaba spam en el chat).
+-⚠️ Encapsulado aún en fase de ajuste de tolerancias para impresión 3D.
 
 ---
 
