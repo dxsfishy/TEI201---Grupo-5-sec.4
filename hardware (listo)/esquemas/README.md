@@ -1,16 +1,10 @@
 # Esquemas de Circuito
 
-## Archivos Requeridos
+## Archivos Incluidos
+- Circuito Wokwi con su respectivo diagrama
+- [`wokwi_link.txt`](https://wokwi.com/projects/481438650871320577) - URL del proyecto online de wokwi
 
-### Formato Fritzing
-- `circuito_completo.fzz` - Archivo fuente Fritzing
-- `esquema_circuito.png` - Exportación del esquema
-- `pcb_layout.png` - (opcional) Layout de PCB
-
-### Formato Wokwi
-- `wokwi_diagram.json` - Archivo de proyecto Wokwi
-- `wokwi_screenshot.png` - Captura del circuito
-- `wokwi_link.txt` - URL del proyecto online
+Los potenciómetros representan las señales analógicas del sensor capacitivo de humedad v1.2 y del sensor de luminosidad KY-018. Esta simulación permite visualizar las conexiones, pero no reproduce el comportamiento físico exacto de ambos sensores.
 
 ---
 
