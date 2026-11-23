@@ -6,6 +6,15 @@
 
 Los potenciómetros representan las señales analógicas del sensor capacitivo de humedad v1.2 y del sensor de luminosidad KY-018. Esta simulación permite visualizar las conexiones, pero no reproduce el comportamiento físico exacto de ambos sensores.
 
+## Simulación en Wokwi ##
+
+Para representar el circuito se utilizó la plataforma Wokwi, que permite visualizar las conexiones entre los componentes electrónicos.
+
+Debido a la disponibilidad de componentes en el simulador, se utilizaron dos potenciómetros como sustitutos de las señales analógicas de los sensores.
+
+* Potenciómetro 1: representa el sensor de humedad del suelo.
+
+* Potenciómetro 2: representa el sensor de luminosidad KY-018.
 ---
 
 ## Notas de Diseño
