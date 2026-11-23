@@ -8,9 +8,13 @@ Hoja de cálculo con todos los datos recolectados durante testing
 **Estructura sugerida:**
 
 #### Sheet 1: Datos de Usuarios
-| ID Usuario | Edad | Género | Perfil | Fecha Testing |
-|------------|------|--------|--------|---------------|
-| U01 | [edad] | [M/F/Otro] | [descripción] | [fecha] |
+| ID Usuario | Edad  | Perfil | Experiencia | 
+|------------|------|-------------------|--------|-------------|
+| U01 | 27  | Cultiva plantas en departamento | Básica | 
+| U02 | 34 | Aficionado a la jardinería | Intermedia | 
+| U03 | 42 | Mantiene un pequeño huerto doméstico | 
+| U04 | 30  | Cuida plantas ocasionalmente | Baja | 
+| U05 | 39 | Interesado en tecnología y automatización | Alta | 
 
 #### Sheet 2: Métricas de Usabilidad
 | ID Usuario | Facilidad Uso (1-5) | Satisfacción (1-5) | Tiempo Tarea (seg) | Errores |
