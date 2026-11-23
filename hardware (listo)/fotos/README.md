@@ -1,36 +1,17 @@
 # Fotografías del Prototipo
-
-## Requisitos de las Fotos
-
-### Calidad
-- **Resolución mínima:** 1920x1080 px
-- **Formato:** JPG o PNG
-- **Iluminación:** Buena iluminación natural o artificial uniforme
-- **Fondo:** Neutro y sin distracciones
+Esta carpeta reúne evidencia fotográfica del montaje físico. En la copia revisada hay una fotografía del circuito; las demás tomas enumeradas a continuación aún no están subidas.
 
 ### Tomas Requeridas
 
-1. **Vista general del prototipo completo**
-   - `01_vista_general.jpg`
-
-2. **Vista del circuito interno**
-   - `02_circuito_interno.jpg`
-
-3. **Detalle de conexiones críticas**
-   - `03_detalle_conexiones.jpg`
-
-4. **Vista de sensores montados**
-   - `04_sensores.jpg`
-
-5. **Vista de actuadores**
-   - `05_actuadores.jpg`
-
-6. **Encapsulado cerrado (si aplica)**
-   - `06_encapsulado_cerrado.jpg`
-
-7. **Prototipo en contexto de uso**
-   - `07_contexto_uso.jpg`
-
+| Nº | Toma | Archivo | Estado |
+|---|---|---|---|
+| 1 | Vista general del prototipo | `01_vista_general.jpg` | Pendiente |
+| 2 | Vista del circuito interno | [`02_circuito_interno.jpg`](02_circuito_interno.jpg) | Disponible |
+| 3 | Detalle de conexiones críticas | `03_detalle_conexiones.jpg` | Pendiente |
+| 4 | Vista de sensores montados | `04_sensores.jpg` | Pendiente |
+| 5 | Vista de actuadores | No aplica si no hay actuadores físicos | No corresponde al prototipo documentado |
+| 6 | Encapsulado cerrado | `06_encapsulado_cerrado.jpg` | Pendiente; solo si existe carcasa fabricada |
+| 7 | Prototipo en contexto de uso | `07_contexto_uso.jpg` | Pendiente |
 ---
 
 ## Nomenclatura
