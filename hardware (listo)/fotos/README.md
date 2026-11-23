@@ -5,12 +5,12 @@ Esta carpeta reúne evidencia fotográfica del montaje físico. En la copia revi
 
 | Nº | Toma | Archivo | Estado |
 |---|---|---|---|
-| 1 | Vista general del prototipo | `01_vista_general.jpg` | Pendiente |
+| 1 | Vista general del prototipo | `01_vista_general.jpg` | Disponible |
 | 2 | Vista del circuito interno | [`02_circuito_interno.jpg`](02_circuito_interno.jpg) | Disponible |
 | 3 | Detalle de conexiones críticas | `03_detalle_conexiones.jpg` | Pendiente |
-| 4 | Vista de sensores montados | `04_sensores.jpg` | Pendiente |
+| 4 | Vista de sensores montados | `04_sensores.jpg` | Disponible |
 | 5 | Vista de actuadores | No aplica si no hay actuadores físicos | No corresponde al prototipo documentado |
-| 6 | Encapsulado cerrado | `06_encapsulado_cerrado.jpg` | Pendiente; solo si existe carcasa fabricada |
+| 6 | Encapsulado cerrado | `06_encapsulado_cerrado.jpg` | Disponible |
 | 7 | Prototipo en contexto de uso | `07_contexto_uso.jpg` | Pendiente |
 ---
 
