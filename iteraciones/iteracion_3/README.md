@@ -2,63 +2,83 @@
 
 ## Información General
 
-**Fecha:** [XX/XX/2025]  
+**Fecha:** 04 / 11 / 2026  
 **Versión:** v3.0  
-**Estado:** Prototipo de alta resolución - Versión final  
+**Estado:** Prototipo final  
 **Avance asociado:** Avance #3
 
 ---
 
 ## Descripción
+La tercera iteración corresponde a la versión final del sistema **Monitor Inteligente de Plantas IoT**, en la cual se integraron el hardware, el firmware definitivo, el encapsulado impreso en 3D y la interfaz de notificaciones remotas mediante un Bot de Telegram. El sistema diagnostica en tiempo real la humedad del sustrato y la exposición lumínica de la planta, enviando alertas inteligentes al teléfono del usuario únicamente cuando ocurre un cambio relevante en el estado de riego.
 
-Versión final del prototipo, incorporando todas las mejoras y refinamientos basados en feedback de v2 y testing extensivo con usuarios. Sistema robusto, probado y listo para piloto en contexto real.
+### Objetivos alcanzados
+- Integración completa del ESP32-S3, sensor capacitivo v1.2 y sensor KY-018 dentro del encapsulado final.
+- Encapsulado definitivo diseñado en Fusion 360 e impreso en 3D con exposición directa para el sensor de luz y ranura estanca para la sonda de suelo.
+- Comunicación WiFi estable con reconexión automática (`WiFi.setAutoReconnect(true)`).
+- Sistema de notificaciones inteligentes en Telegram basado en cambios de estado (`SECO`, `ÓPTIMO`, `HÚMEDO`, `EMPAPADO`) con formato HTML enriquecido
 
-**Objetivos alcanzados:**
-- Prototipo completamente funcional y robusto
-- Encapsulado finalizado con todos los componentes
-- Validación con 5+ usuarios del grupo objetivo
-- Métricas de impacto ODS cuantificadas
-- Sistema instalable en contexto urbano real
+---
+
+## Cambios Respecto a v2
+
+- Integración completa del ESP32-S3, sensor capacitivo v1.2 y sensor KY-018 dentro del encapsulado final.
+- Encapsulado definitivo diseñado en Fusion 360 e impreso en 3D con exposición directa para el sensor de luz y ranura estanca para la sonda de suelo.
+- Comunicación WiFi estable con reconexión automática (`WiFi.setAutoReconnect(true)`).
+- Sistema de notificaciones inteligentes en Telegram basado en cambios de estado (`SECO`, `ÓPTIMO`, `HÚMEDO`, `EMPAPADO`) con formato HTML enriquecido.
 
 ---
 
 ## Cambios Respecto a v2
 
 ### Hardware
-**Mejoras implementadas:**
-1. [Mejora 1]
-   - Razón: [Feedback de v2 / necesidad identificada]
-   - Impacto: [Mejora cuantitativa]
 
-2. [Mejora 2]
-   - Razón: [Feedback de v2 / necesidad identificada]
-   - Impacto: [Mejora cuantitativa]
+#### Mejoras implementadas
 
-**Cambios finales:**
-- [Cambio técnico específico]
-- [Optimización final]
+#### Integración definitiva dentro del encapsulado 3D
+
+**Razón**  
+Proteger la electrónica del polvo y salpicaduras de agua durante el riego, manteniendo el sensor KY-018 expuesto a la luz ambiental.
+**Impacto**  
+Mayor durabilidad, estética limpia y facilidad para instalar el dispositivo directamente junto a la maceta.
+
+---
+
+#### Estabilización de conexiones internas
+
+**Razón**  
+Evitar falsos contactos en los pines `GPIO 4` y `GPIO 5` al manipular o trasladar el prototipo.
+**Impacto**  
+Lecturas consistentes sin desconexiones accidentales durante las pruebas de campo.
+
+---
 
 ### Software
-**Nuevas funcionalidades:**
-- [Feature final 1]
-- [Feature final 2]
+
+#### Nuevas funcionalidades
+- **Detección inteligente por cambio de estado (`estadoAnteriorHumedad`):** El bot envía reportes únicamente cuando la tierra transiciona entre categorías, eliminando el spam de mensajes.
+- **Formateo enriquecido en HTML:** Mensajes estructurados con negritas, cursivas e indicadores visuales (`🥵`, `🌱`, `💧`, `🌊`, `🌙`, `⛅`, `☀️`) para lectura rápida desde el celular.
+- **Diagnóstico combinado:** Cada alerta de humedad incluye además el porcentaje y clasificación de luz ambiente en ese instante.
+
 
 **Optimizaciones finales:**
-- [Optimización de código]
-- [Mejora de eficiencia]
+- Ciclo de muestreo cada 3 segundos (`delay(3000)`) con promedio de 10 lecturas por sensor para respuesta rápida ante eventos de riego.
+- Reconexión automática ante microcortes de la red WiFi doméstica.
 
-**Manejo de errores:**
-- Implementado manejo robusto de casos extremos
-- Mensajes de error informativos
-- Recuperación automática ante fallas menores
+#### Manejo de errores
+- Validación del envío del mensaje mediante `bot.sendMessage()` con registro de confirmación o fallo en el Monitor Serial.
+- Restricción de rangos porcentuales mediante `constrain(..., 0, 100)` para evitar valores fuera de escala.
+
+---
 
 ### Diseño Mecánico
-**Encapsulado finalizado:**
-- Diseño optimizado para impresión 3D
-- Todos los componentes integrados
-- Sistema de montaje robusto
-- Accesibilidad para mantenimiento
-- Resistencia a condiciones ambientales
+
+#### Encapsulado Final
+- Diseño optimizado para impresión 3D en PLA.
+- Apertura superior calibrada para el fotorresistor del módulo KY-018.
+- Ranura inferior para el paso de cables hacia el sensor capacitivo v1.2 enterrado en la maceta.
+- Acceso lateral al puerto USB-C del ESP32-S3 para alimentación y depuración.
+
 
 ---
 
@@ -77,131 +97,117 @@ Incluir en esta carpeta:
 ## Resultados Finales
 
 ### Funcionalidad Completa
-✅ [Todas las funciones planificadas]  
-✅ Sistema opera sin intervención manual  
-✅ Conectividad estable  
-✅ Interfaz de usuario funcional  
-✅ Manejo robusto de errores  
+- ✅ Medición filtrada de humedad volumétrica relativa del sustrato (`GPIO 4`).
+- ✅ Medición filtrada de luminosidad ambiente con KY-018 (`GPIO 5`).
+- ✅ Conexión WiFi estable con reconexión automática.
+- ✅ Envío inteligente de alertas por cambio de estado mediante Bot de Telegram.
+- ✅ Formato visual claro en HTML con indicadores de estado de tierra y luz.
+- ✅ Encapsulado completamente ensamblado y operativo en maceta real.
 
-### Testing con 5+ Usuarios
 
-**Participantes:**
-- N = [número] usuarios
-- Perfil: [Descripción del grupo objetivo]
+## Validación del Sistema
+Durante esta iteración se realizaron pruebas funcionales completas para verificar:
 
-**Resultados cuantitativos:**
-| Métrica | Promedio | Desv. Std. |
-|---------|----------|------------|
-| Facilidad de uso (1-5) | [X.X] | [X.X] |
-| Satisfacción (1-5) | [X.X] | [X.X] |
-| Tiempo completar tarea (seg) | [XX] | [XX] |
-| Errores cometidos | [X.X] | [X.X] |
+- Lectura precisa en sustrato seco (`< 25%` → alerta `SECO 🥵`).
+- Transición inmediata tras el riego hacia el rango ideal (`25% - 54%` → alerta `ÓPTIMO 🌱`).
+- Detección de exceso de agua (`55% - 74%` → `HÚMEDO 💧` y `>= 75%` → `EMPAPADO 🌊`).
+- Clasificación correcta de iluminación diurna, semisombra y nocturna mediante el KY-018.
+- Ausencia de mensajes repetidos mientras el estado de la planta permanece estable.
 
-**Feedback cualitativo más relevante:**
-- Positivo: "[Cita de usuario]"
-- Positivo: "[Cita de usuario]"
-- A mejorar: "[Cita de usuario]"
+Todas las funciones principales operaron correctamente durante las pruebas del prototipo final.
 
-### Validación de Impacto ODS
-
-**ODS Seleccionado:** [Número y nombre]
-
-**Métricas de impacto:**
-
-1. **[Métrica 1]**
-   - Baseline (sin prototipo): [Valor]
-   - Con prototipo: [Valor medido]
-   - Mejora: [% o valor absoluto]
-
-2. **[Métrica 2]**
-   - Baseline: [Valor]
-   - Con prototipo: [Valor medido]
-   - Mejora: [% o valor absoluto]
-
-**Proyección de impacto:**
-Si se despliega a escala [barrio/ciudad/región]:
-- [Impacto estimado cuantitativo]
-- [Beneficiarios potenciales]
 
 ---
 
 ## Comparación de las 3 Iteraciones
 
-| Aspecto | v1 | v2 | v3 | Mejora Total |
-|---------|----|----|----| -------------|
-| **Sensores** | 2/3 | 3/3 | 3/3 | ✅ 100% |
-| **Actuadores** | 1/2 | 2/2 | 2/2 | ✅ 100% |
-| **Tiempo respuesta (ms)** | 500 | 200 | 100 | ↓ 80% |
-| **Consumo (mA)** | 250 | 180 | 120 | ↓ 52% |
-| **Tasa errores (%)** | 15 | 5 | 1 | ↓ 93% |
-| **Encapsulado** | ❌ | Prototipo | Finalizado | ✅ |
-| **Usuarios testeados** | 0 | 2 | 5+ | ✅ |
-| **Satisfacción (1-5)** | - | 3.8 | 4.5 | ↑ 18% |
-| **Impacto ODS validado** | ❌ | Parcial | ✅ Completo | ✅ |
+| Característica | v1 | v2 | v3 |
+|---------------|:--:|:--:|:--:|
+| Lectura de humedad (GPIO 4) | ✅ | ✅ | ✅ |
+| Lectura de luz KY-018 (GPIO 5) | ✅ | ✅ | ✅ |
+| Filtrado digital (promedio 10 muestras) | ❌ | ✅ | ✅ |
+| Clasificación automática de estados | ❌ | ✅ | ✅ |
+| Comunicación WiFi con auto-reconexión | ❌ | Parcial | ✅ |
+| Alertas por Bot de Telegram | ❌ | Continuo | Inteligente (por cambio) |
+| Formato HTML e iconos de diagnóstico | ❌ | ❌ | ✅ |
+| Encapsulado 3D ensamblado | ❌ | Modelado | Finalizado |
+
 
 ---
 
 ## Fortalezas del Prototipo Final
 
-1. **[Fortaleza 1]**
-   - Evidencia: [Datos de testing]
+### Notificaciones sin saturación
 
-2. **[Fortaleza 2]**
-   - Evidencia: [Feedback de usuarios]
+Al comparar cada lectura con `estadoAnteriorHumedad`, el usuario recibe información únicamente cuando la planta requiere atención o cambia su condición tras el riego.
 
-3. **[Fortaleza 3]**
-   - Evidencia: [Métricas técnicas]
+---
+
+### Diagnóstico integral de entorno
+
+Combina dos variables críticas para el cuidado doméstico de plantas (humedad radicular e incidencia de luz) en un único reporte legible desde cualquier lugar.
+
+---
+
+### Diseño modular y replicable
+
+El uso de sensores estándar (capacitivo v1.2 y KY-018) junto con un encapsulado impreso en 3D permite replicar o mantener el dispositivo con bajo costo y facilidad.
 
 ---
 
 ## Limitaciones Identificadas
 
-1. **[Limitación 1]**
-   - Descripción: [Detalles]
-   - Impacto: [Evaluación]
-   - Posible solución futura: [Ideas]
+### Dependencia de alimentación por cable USB
 
-2. **[Limitación 2]**
-   - Descripción: [Detalles]
-   - Impacto: [Evaluación]
-   - Posible solución futura: [Ideas]
+El sistema requiere conexión continua a una fuente de 5V por USB.
+
+**Posible mejora**  
+Incorporar una batería LiPo con módulo de carga TP4056 y modo *Deep Sleep* en el ESP32-S3 para autonomía inalámbrica.
 
 ---
 
-## Aprendizajes del Proceso Completo
+### Monitoreo pasivo (unidireccional)
+
+El bot envía alertas automáticas ante cambios de estado, pero no responde a consultas bajo demanda del usuario.
+
+**Posible mejora**  
+Implementar comandos interactivos en Telegram como `/estado` para consultar las métricas en cualquier momento.
+
+---
+
+## Aprendizajes
 
 ### Técnicos
-1. [Aprendizaje técnico importante]
-2. [Aprendizaje técnico importante]
 
-### De Diseño
-1. [Lección sobre proceso de diseño]
-2. [Lección sobre proceso de diseño]
+- La calibración empírica con el sustrato real del proyecto (`2965` en seco y `2300` en mojado) es indispensable para evitar falsas alarmas de riego.
+- El promediado de lecturas ADC elimina eficazmente el ruido propio de sensores analógicos económicos.
 
-### De Trabajo en Equipo
-1. [Lección sobre colaboración]
-2. [Lección sobre colaboración]
+### Diseño
 
-### De Gestión de Proyecto
-1. [Lección sobre planificación]
-2. [Lección sobre gestión de tiempo]
+- El modelado 3D en Fusion 360 permitió integrar el sensor KY-018 en la carcasa sin obstruir su fotorresistor.
+
+### Trabajo en Equipo
+
+- La división de responsabilidades entre calibración de sensores, programación del bot, diseño 3D y documentación permitió iterar de forma ordenada y validar cada avance antes de la integración final.
 
 ---
 
-## Trabajo Futuro Recomendado
+## Trabajo Futuro
 
 ### Mejoras a Corto Plazo
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
+
+- [ ] Agregar soporte para comandos de consulta manual en Telegram (`/estado`, `/luz`).
+- [ ] Incorporar historial diario de riego y horas de luz recibidas.
 
 ### Mejoras a Mediano Plazo
-- [ ] [Feature adicional 1]
-- [ ] [Optimización 1]
+
+- [ ] Integrar alimentación por batería recargable y gestión de bajo consumo (*Deep Sleep*).
+- [ ] Añadir sensor de temperatura ambiente/sustrato (DS18B20 o DHT22).
 
 ### Escalabilidad
-- [ ] [Consideración para producción masiva]
-- [ ] [Modelo de negocio / sustentabilidad]
-- [ ] [Alianzas estratégicas potenciales]
+
+- [ ] Monitorear múltiples macetas desde un mismo bot identificando cada planta por nombre.
+- [ ] Conectar el sistema a una electroválvula para automatizar el riego cuando el estado pase a `SECO`.
 
 ---
 
