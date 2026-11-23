@@ -30,7 +30,7 @@ Cada carpeta debe incluir:
 
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
-| **Fecha** |24/08/26 | 28/10/26 |22/11/26 |
+| **Fecha** |24/08/26 | 28/10/26 |04/11/26 |
 | **Sensores** | Humedad | Humedad |  Humedad y Luz |
 | **Actuadores** | ❌ | Telegram | Telegram |
 | **Conectividad** | Wifi | Wifi | Wifi |
@@ -72,7 +72,7 @@ La presentación incluye una demostración de lectura del sensor y alertas. No p
 Evidencia: presentación Avance 2, secciones «Componentes», «Documentación técnica» y «Demostración en vivo».
 
 ### Iteración 3 - Versión Final
-**Fecha:** 22 de noviembre del 2026 
+**Fecha:** 04 de noviembre del 2026 
 
 | Problema observado | Cambio descrito por el equipo | Propósito | Qué falta verificar |
 |:--|:--|:--|:--|
