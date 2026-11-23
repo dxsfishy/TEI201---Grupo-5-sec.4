@@ -15,7 +15,9 @@
 - Archivo: [`03_ensamble_explosionado_v3.png`](03_ensamble_explosionado_v3.png)
 - Versión: v3.
 - Resolución comprobada: 1920 × 1080 píxeles.
-
+### 4. Vista Adicional — Pendiente
+- Archivo: aún no disponible en la copia revisada.
+- Sugerencia: agregar una vista interior o de sección del encapsulado definitivo, idealmente correspondiente a v4.
 ---
 
 ## Configuración de Render en Fusion 360
