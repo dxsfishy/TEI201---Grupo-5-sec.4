@@ -16,12 +16,12 @@ Este archivo declara las fuentes identificables en la documentación del equipo.
 -----------
 ## Código externo usado o reutilizado
 
-| Función o parte del proyecto | Procedencia | Adaptación realizada | Estado |
-|:--|:--|:--|:--|
-| Lectura con promedio de 10 muestras | **Por confirmar con autores del firmware** | El informe presenta un promedio de lecturas analógicas y su uso en el sensor de suelo | Origen no identificado |
-| Mapeo de calibración de humedad | **Por confirmar con autores del firmware** | Conversión de valores `RAW_SECO` y `RAW_MOJADO` a una escala porcentual | Origen no identificado |
-| Mensajería y notificaciones Telegram | **Por confirmar con autores del firmware** | El anexo incluye envío por cambio de estado | Origen no identificado |
-| Conexión Wi-Fi con WPA2 Enterprise | **Por confirmar con autores del firmware** | Se muestra autenticación para la red universitaria | Origen no identificado |
+| Función o parte del proyecto | Procedencia | Adaptación realizada |
+|:--|:--|:--|
+| Lectura con promedio de 10 muestras | **Por confirmar con autores del firmware** | El informe presenta un promedio de lecturas analógicas y su uso en el sensor de suelo | 
+| Mapeo de calibración de humedad | **Por confirmar con autores del firmware** | Conversión de valores `RAW_SECO` y `RAW_MOJADO` a una escala porcentual | 
+| Mensajería y notificaciones Telegram | **Por confirmar con autores del firmware** | El anexo incluye envío por cambio de estado |
+| Conexión Wi-Fi con WPA2 Enterprise | **Por confirmar con autores del firmware** | Se muestra autenticación para la red universitaria | 
 
 ---------------
 ## Documentación del proyecto — ChatGPT ##
