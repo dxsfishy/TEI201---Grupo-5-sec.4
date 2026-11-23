@@ -8,28 +8,31 @@
 - Iluminación clara
 - Resolución: 1920×1080 mínimo
 
-### Renders Opcionales (Recomendados)
-- `02_detalle_sensores.png` - Close-up de sensores
-- `03_ensamble_explosionado.png` - Componentes separados
-- `04_variantes_color.png` - Si hay opciones de diseño
+### 2. Detalle de Sensores
+- Archivo: [`02_detalles_sensores_v3.png`](02_detalles_sensores_v3.png)
+- Versión: v3.
+- Resolución comprobada: 1920 × 1080 píxeles.
+### 3. Ensamble Explosionado
+- Archivo: [`03_ensamble_explosionado_v3.png`](03_ensamble_explosionado_v3.png)
+- Versión: v3.
+- Resolución comprobada: 1920 × 1080 píxeles.
 
 ---
 
 ## Configuración de Render en Fusion 360
 
 ### Settings Recomendados
-- **Render Engine:** Local / Cloud
-- **Environment:** [Tipo de iluminación]
-- **Resolution:** 1920×1080 o superior
-- **Quality:** High
-- **Exposure:** [Ajustado para visibilidad]
-- **Effects:** Ambient Occlusion ON
-
+- Render Engine: Local o Cloud.
+- Environment: iluminación suave que permita distinguir los componentes.
+- Resolution: 1920 × 1080 como objetivo (cumplido en los tres PNG incluidos).
+- Quality: High.
+- Exposure: ajustar para garantizar visibilidad.
+- Effects: Ambient Occlusion si mejora la lectura del ensamble.
+Estas son recomendaciones de configuración, no ajustes comprobados del archivo nativo.
 ### Materiales y Apariencias
-Asignar materiales realistas:
-- Plástico: PLA/ABS mate o satinado
-- Electrónica: PCB verde, componentes negros
-- Metales: Tornillos acero inoxidable
+- Carcasa: apariencia plástica mate, según el material proyectado para fabricación.
+- Electrónica: tonos diferenciados para placa y módulos.
+- Elementos de fijación: apariencia metálica para tornillos, si existen en el modelo.
 
 ---
 
