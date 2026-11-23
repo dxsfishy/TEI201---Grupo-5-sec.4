@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "author": "TEI201 - Grupo 5",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-s3-devkitc-1",
+      "id": "esp",
+      "top": 28,
+      "left": 350,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "humedad",
+      "top": -20,
+      "left": 30,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "luz",
+      "top": 200,
+      "left": 30,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "humedad:VCC",
+      "esp:3V3.1",
+      "red",
+      []
+    ],
+    [
+      "humedad:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "humedad:SIG",
+      "esp:4",
+      "green",
+      []
+    ],
+    [
+      "luz:VCC",
+      "esp:3V3.1",
+      "red",
+      []
+    ],
+    [
+      "luz:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "luz:SIG",
+      "esp:5",
+      "yellow",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
