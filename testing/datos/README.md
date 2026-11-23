@@ -8,6 +8,7 @@ Hoja de cálculo con todos los datos recolectados durante testing
 **Estructura sugerida:**
 
 #### Sheet 1: Datos de Usuarios
+
 | ID Usuario | Edad  | Perfil | Experiencia | 
 |------------|------|-------------------|--------|-------------|
 | U01 | 27  | Cultiva plantas en departamento | Básica | 
