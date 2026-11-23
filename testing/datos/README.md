@@ -10,7 +10,7 @@ Hoja de cálculo con todos los datos recolectados durante testing
 #### Sheet 1: Datos de Usuarios
 
 | ID Usuario | Edad  | Perfil | Experiencia | 
-|------------|------|-------------------|--------|-------------|
+|------------|------|-------------------|--------|
 | U01 | 27  | Cultiva plantas en departamento | Básica | 
 | U02 | 34 | Aficionado a la jardinería | Intermedia | 
 | U03 | 42 | Mantiene un pequeño huerto doméstico | 
