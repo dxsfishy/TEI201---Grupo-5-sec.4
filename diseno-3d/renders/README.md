@@ -3,17 +3,17 @@
 ## Renders Requeridos (Mínimo 4 ángulos)
 
 ### 1. Vista Isométrica Frontal
-- Archivo: [`01_isometrica_frontal_v3.png`](01_isometrica_frontal_v3.png)
-- Versión: v3.
+- Archivo: [`01_isometrica_frontal_v4.png`](01_isometrica_frontal_v3.png)
+- Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 
 ### 2. Detalle de Sensores
-- Archivo: [`02_detalles_sensores_v3.png`](02_detalles_sensores_v3.png)
-- Versión: v3.
+- Archivo: [`02_detalles_sensores_v4.png`](02_detalles_sensores_v3.png)
+- Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 ### 3. Ensamble Explosionado
-- Archivo: [`03_ensamble_explosionado_v3.png`](03_ensamble_explosionado_v3.png)
-- Versión: v3.
+- Archivo: [`03_ensamble_explosionado_v4.png`](03_ensamble_explosionado_v3.png)
+- Versión: v4.
 - Resolución comprobada: 1920 × 1080 píxeles.
 ### 4. Vista Adicional — Pendiente
 - Archivo: aún no disponible en la copia revisada.
