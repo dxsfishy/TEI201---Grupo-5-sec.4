@@ -57,11 +57,11 @@ Incluir en esta carpeta:
 ## Resultados de Testing Inicial
 
 ### Funcionalidad Lograda
-✅ Lectura individual y simultánea del sensor capacitivo de humedad y del KY-018.
-✅ Comunicación estable entre el ESP32-S3 y el Monitor Serial a 115200 baudios.
-✅ Obtención de valores crudos de referencia para calibración.
-❌ Conectividad WiFi.
-❌ Envío de alertas remotas (Bot de Telegram).
+- ✅ Lectura individual y simultánea del sensor capacitivo de humedad y del KY-018.
+- ✅ Comunicación estable entre el ESP32-S3 y el Monitor Serial a 115200 baudios.
+- ✅ Obtención de valores crudos de referencia para calibración.
+- ❌ Conectividad WiFi.
+- ❌ Envío de alertas remotas (Bot de Telegram).
 
 ### Problemas Identificados
 
