@@ -1,6 +1,6 @@
 # Renders de Alta Calidad
 
-## Renders Requeridos (Mínimo 3 ángulos)
+## Renders Requeridos (Mínimo 4 ángulos)
 
 ### 1. Vista Isométrica Frontal
 - Archivo: [`01_isometrica_frontal_v3.png`](01_isometrica_frontal_v3.png)
